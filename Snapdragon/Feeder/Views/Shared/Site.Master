@@ -1,0 +1,48 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Feeder.Views.Shared.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title><%= Html.Encode(ViewData["Title"]) %></title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Scripts/Snapdragon.js"></script>
+
+</head>
+
+<body>
+    <div class="page">
+
+        <div id="header">
+            <div id="title">
+                <h1>Snapdragon Feed Reader</h1>
+            </div>
+              
+            <div id="logindisplay">
+                <% Html.RenderPartial("LoginUserControl"); %>
+            </div> 
+            
+            <div id="menucontainer">
+            
+                <ul id="menu">              
+                    <li><%= Html.ActionLink("Home", "Index", "Home")%></li>
+                    <li><%= Html.ActionLink("Manage Feeds", "Index", "Feed")%></li>                    
+                    <li><%= Html.ActionLink("Read Feeds", "Index", "Reader")%></li>                                        
+                    <li><%= Html.ActionLink("Manage Account", "ChangePassword", "Account")%></li>
+                    <li><%= Html.ActionLink("Help", "Index", "Help")%></li>
+                    <li><%= Html.ActionLink("About Us", "About", "Home")%></li>                    
+                </ul>
+            
+            </div>
+        </div>
+
+        <div id="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+            <div id="footer">
+                snapdragon feed reader <a href="mailto:avilay@gmail.com">send feedback</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

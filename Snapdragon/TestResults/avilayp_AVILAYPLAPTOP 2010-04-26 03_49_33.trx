@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="98a89b8e-3ece-4691-a6c2-e11bd1bf2ee8" name="avilayp@AVILAYPLAPTOP 2010-04-26 03:49:33" runUser="REDMOND\avilayp" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b6efd2e3-ed4b-48cf-9ff1-4523d3fefcb0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\avilayp\Projects\Snapdragon\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="avilayp_AVILAYPLAPTOP 2010-04-26 03_49_33" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-04-26T03:49:33.2705947-07:00" queuing="2010-04-26T03:49:33.2745949-07:00" start="2010-04-26T03:49:33.3025965-07:00" finish="2010-04-26T03:49:40.3770011-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\avilayp\projects\snapdragon\testfeeder\bin\debug\testfeeder.dll" id="f9b5067e-1fb7-804a-e3a2-3878983e26a5">
+      <Execution id="d7ab4103-1ac7-4ce0-a5be-b1de16dc1275" />
+      <TestMethod codeBase="C:/Users/avilayp/Projects/Snapdragon/TestFeeder/bin/Debug/TestFeeder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFeeder.CodedUITest1, TestFeeder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f9b5067e-1fb7-804a-e3a2-3878983e26a5" executionId="d7ab4103-1ac7-4ce0-a5be-b1de16dc1275" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d7ab4103-1ac7-4ce0-a5be-b1de16dc1275" testId="f9b5067e-1fb7-804a-e3a2-3878983e26a5" testName="CodedUITestMethod1" computerName="AVILAYPLAPTOP" duration="00:00:06.5098165" startTime="2010-04-26T03:49:33.3255978-07:00" endTime="2010-04-26T03:49:40.2079914-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7ab4103-1ac7-4ce0-a5be-b1de16dc1275">
+      <Output>
+        <DebugTrace>E, 7376, 30, 2010/04/26, 03:49:34.113, 427602435487, QTAgent32.exe, LoadLibrary() : Unable to find the resource 37382 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+E, 7376, 30, 2010/04/26, 03:49:34.115, 427602440667, QTAgent32.exe, LoadLibrary() : Unable to find the resource 41728 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+E, 7376, 30, 2010/04/26, 03:49:34.118, 427602447845, QTAgent32.exe, LoadLibrary() : Unable to find the resource 803 from assembly C:\Windows\system32\en-US\user32.dll.mui: Error1814
+E, 7376, 30, 2010/04/26, 03:49:34.307, 427602852654, QTAgent32.exe, IEDOM : Could not get valid window handle of Internet Explorer_server
+W, 7376, 30, 2010/04/26, 03:49:34.307, 427602852901, QTAgent32.exe, IEDOM : Unable to get the document Window Handle
+W, 7376, 30, 2010/04/26, 03:49:36.983, 427608588328, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] MouseButtonClick - "[Web]ControlType='Hyperlink' &amp;&amp; TagName='A' &amp;&amp; Id='' &amp;&amp; Name='' &amp;&amp; Target='' &amp;&amp; InnerText='Read Feeds' &amp;&amp; FilterCondition(AbsolutePath='/Reader', Title='', Href='http://avilay.info/Reader', Class='', ControlDefinition='href="/Reader"', TagInstance='3')"
+\0&lt;/a&gt;
+W, 7376, 30, 2010/04/26, 03:49:38.633, 427612123418, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] SetValueAsEditBox "aptg" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='username' &amp;&amp; Name='username' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='id=username type=text name=username', TagInstance='1')"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 7376, 30, 2010/04/26, 03:49:39.069, 427613058403, QTAgent32.exe, Playback - [WARNING] Internal warning: Convertion of Web elements to MSAA is not supported in the current version
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.073, 427613066469, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.075, 427613070982, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.077, 427613075462, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.079, 427613079599, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.081, 427613083641, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.083, 427613087724, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.085, 427613091742, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.087, 427613095965, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.089, 427613100198, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.091, 427613105774, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 7376, 30, 2010/04/26, 03:49:39.095, 427613113747, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] SendKeys "{Tab}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='username' &amp;&amp; Name='username' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='id=username type=text name=username', TagInstance='1')"
+\0&lt;/a&gt;
+W, 7376, 30, 2010/04/26, 03:49:39.350, 427613660296, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] SendKeys "^{HOME}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='password' &amp;&amp; Name='password' &amp;&amp; FilterCondition(LabeledBy='', Type='PASSWORD', Title='', Class='', ControlDefinition='id=password value="" type=password name=', TagInstance='2')"
+\0&lt;/a&gt;
+E, 7376, 30, 2010/04/26, 03:49:39.352, 427613665857, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 7376, 30, 2010/04/26, 03:49:39.448, 427613870115, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] SendKeys "^+{END}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='password' &amp;&amp; Name='password' &amp;&amp; FilterCondition(LabeledBy='', Type='PASSWORD', Title='', Class='', ControlDefinition='id=password value="" type=password name=', TagInstance='2')"
+\0&lt;/a&gt;
+E, 7376, 30, 2010/04/26, 03:49:39.448, 427613870513, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 7376, 30, 2010/04/26, 03:49:39.480, 427613939663, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] SendKeys "{DELETE}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='password' &amp;&amp; Name='password' &amp;&amp; FilterCondition(LabeledBy='', Type='PASSWORD', Title='', Class='', ControlDefinition='id=password value="" type=password name=', TagInstance='2')"
+\0&lt;/a&gt;
+W, 7376, 30, 2010/04/26, 03:49:39.677, 427614361908, QTAgent32.exe, &lt;a class=success&gt;Playback - {7} [SUCCESS] SetValueAsEditBox "[*]" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='password' &amp;&amp; Name='password' &amp;&amp; FilterCondition(LabeledBy='', Type='PASSWORD', Title='', Class='', ControlDefinition='id=password value="" type=password name=', TagInstance='2')"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 7376, 30, 2010/04/26, 03:49:40.046, 427615152595, QTAgent32.exe, &lt;a class=success&gt;Playback - {8} [SUCCESS] MouseButtonClick - "[Web]ControlType='Button' &amp;&amp; TagName='INPUT' &amp;&amp; Id='' &amp;&amp; Name='' &amp;&amp; DisplayText='Login' &amp;&amp; FilterCondition(Type='submit', Title='', Class='', ControlDefinition='value=Login type=submit', TagInstance='5')"
+\0&lt;/a&gt;
+W, 7376, 30, 2010/04/26, 03:49:40.173, 427615427592, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 7376, 30, 2010/04/26, 03:49:40.174, 427615427814, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

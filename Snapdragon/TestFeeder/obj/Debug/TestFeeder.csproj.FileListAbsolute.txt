@@ -1,0 +1,5 @@
+C:\Users\avilayp\Projects\Snapdragon\TestFeeder\bin\Debug\TestFeeder.dll
+C:\Users\avilayp\Projects\Snapdragon\TestFeeder\bin\Debug\TestFeeder.pdb
+C:\Users\avilayp\Projects\Snapdragon\TestFeeder\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\avilayp\Projects\Snapdragon\TestFeeder\obj\Debug\TestFeeder.dll
+C:\Users\avilayp\Projects\Snapdragon\TestFeeder\obj\Debug\TestFeeder.pdb

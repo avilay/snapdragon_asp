@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="tables" type="System.Configuration.NameValueSectionHandler" />
+  </configSections>
+
+  <appSettings>
+    <add key="logLevel" value="debug" />
+    <add key="backupScriptPath" value="C:\Users\avilayp\Desktop\Projects\Snapdragon\scripts\backup_snapdragon.sql" />
+    <add key="daysToKeep" value="7" />
+    <add key="daemonClientKey" value="avilayparekh"/>
+  </appSettings>
+  
+  <connectionStrings>
+    <add name="SnapdragonProd"
+         connectionString="Data Source=sql2.winisp.net;Initial Catalog=avilay_db1;User Id=avilay;Password=AvPa56nd@!;"
+         providerName="System.Data.SqlClient" />
+
+    <add name="SnapdragonLaptopDev"
+         connectionString="Data Source=AVILAYPLAPTOP\SQLEXPRESS;Initial Catalog=Snapdragon;Integrated Security=True"
+         providerName="System.Data.SqlClient" />
+
+    <add name="SnapdragonDesktopDev"
+         connectionString="Data Source=AVILAYPDESKTOP\SQLEXPRESS;Initial Catalog=Snapdragon;Integrated Security=True"
+         providerName="System.Data.SqlClient" />    
+  </connectionStrings>  
+  
+  <tables>
+    <add key="1" value="aspnet_Applications" />
+    <add key="2" value="aspnet_Users" />
+    <add key="3" value="aspnet_Membership" />
+    <add key="4" value="aspnet_SchemaVersions" />
+    
+    <add key="5" value="UserHistory" />
+    <add key="6" value="Classification" />
+    <add key="7" value="Prior" />
+    <add key="8" value="Vocabulary"/>
+    <add key="9" value="UserVocabulary" />
+    <add key="10" value="Probability" />
+    <add key="11" value="Stopword" />
+    <add key="12" value="Feed" />
+    <add key="13" value="UserFeed" />
+    <add key="14" value="Item" />
+    <add key="15" value="UserItem" />
+    
+    <add key="16" value="Category" />
+    <add key="17" value="Log" />
+    <add key="18" value="CategoryLog" />
+  </tables>
+
+  <system.web>
+    <membership>
+      <providers>
+        <clear/>
+        <add name="AspNetSqlMembershipProvider"
+             type="System.Web.Security.SqlMembershipProvider, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+             connectionStringName="SnapdragonConnectionString"
+             enablePasswordRetrieval="false"
+             enablePasswordReset="true"
+             requiresQuestionAndAnswer="false"
+             requiresUniqueEmail="false"
+             passwordFormat="Hashed"
+             maxInvalidPasswordAttempts="5"
+             minRequiredPasswordLength="1"
+             minRequiredNonalphanumericCharacters="0"
+             passwordAttemptWindow="10"
+             passwordStrengthRegularExpression=""
+             applicationName="/"
+                />
+      </providers>
+    </membership>    
+  </system.web>
+  
+</configuration>

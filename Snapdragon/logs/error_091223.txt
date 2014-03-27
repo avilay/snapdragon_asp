@@ -1,0 +1,278 @@
+12/19/2009 7:03:34 PM Error: RID: f90ec67a-8be6-40ab-96c7-411e86104f35 ????? ?????????????????? ?????????????-???? was not crawled
+System.Xml.XmlException was thrown.
+Unexpected XML declaration. The XML declaration must be the first node in the document, and no white space characters are allowed to appear before it. Line 1, position 4.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParsePI(BufferBuilder piInDtdStringBuilder)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at Avilay.Syndication.FeedReaderFactory.GetFeedType(String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 89
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 45
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/19/2009 7:04:14 PM Error: RID: f90ec67a-8be6-40ab-96c7-411e86104f35 SceneDDL was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/19/2009 7:04:14 PM Error: RID: f90ec67a-8be6-40ab-96c7-411e86104f35 Serial Complainer was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+12/19/2009 7:04:59 PM Error: RID: f90ec67a-8be6-40ab-96c7-411e86104f35 Items for f59475fb-3648-45a8-93af-b36763f194ad was not classified
+System.InvalidOperationException was thrown.
+Prob does not exist for user f59475fb-3648-45a8-93af-b36763f194ad and word bbc
+   at Feeder.Repositories.FeederNaiveBayesModel.GetProbability(String word, String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 274
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 189
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+12/19/2009 7:04:59 PM Error: RID: f90ec67a-8be6-40ab-96c7-411e86104f35 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+12/20/2009 12:02:28 AM Error: RID: b90089c2-935d-427e-b280-b4bb68182228 ????? ?????????????????? ?????????????-???? was not crawled
+System.Xml.XmlException was thrown.
+Unexpected XML declaration. The XML declaration must be the first node in the document, and no white space characters are allowed to appear before it. Line 1, position 4.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParsePI(BufferBuilder piInDtdStringBuilder)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at Avilay.Syndication.FeedReaderFactory.GetFeedType(String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 89
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 45
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/20/2009 12:02:46 AM Error: RID: b90089c2-935d-427e-b280-b4bb68182228 SceneDDL was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/20/2009 12:02:47 AM Error: RID: b90089c2-935d-427e-b280-b4bb68182228 Serial Complainer was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+12/20/2009 12:03:17 AM Error: RID: b90089c2-935d-427e-b280-b4bb68182228 Items for f59475fb-3648-45a8-93af-b36763f194ad was not classified
+System.InvalidOperationException was thrown.
+Prob does not exist for user f59475fb-3648-45a8-93af-b36763f194ad and word bbc
+   at Feeder.Repositories.FeederNaiveBayesModel.GetProbability(String word, String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 274
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 189
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+12/20/2009 12:03:17 AM Error: RID: b90089c2-935d-427e-b280-b4bb68182228 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+12/21/2009 12:01:14 AM Error: RID: 91b759c7-ddea-47f1-8f7c-94692679848c Bokardo - Social Design by Joshua Porter was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/21/2009 12:02:54 AM Error: RID: 91b759c7-ddea-47f1-8f7c-94692679848c ????? ?????????????????? ?????????????-???? was not crawled
+System.Xml.XmlException was thrown.
+Unexpected XML declaration. The XML declaration must be the first node in the document, and no white space characters are allowed to appear before it. Line 1, position 4.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParsePI(BufferBuilder piInDtdStringBuilder)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at Avilay.Syndication.FeedReaderFactory.GetFeedType(String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 89
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 45
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/21/2009 12:03:17 AM Error: RID: 91b759c7-ddea-47f1-8f7c-94692679848c SceneDDL was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/21/2009 12:03:17 AM Error: RID: 91b759c7-ddea-47f1-8f7c-94692679848c Serial Complainer was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+12/21/2009 12:03:51 AM Error: RID: 91b759c7-ddea-47f1-8f7c-94692679848c Items for f59475fb-3648-45a8-93af-b36763f194ad was not classified
+System.InvalidOperationException was thrown.
+Prob does not exist for user f59475fb-3648-45a8-93af-b36763f194ad and word bbc
+   at Feeder.Repositories.FeederNaiveBayesModel.GetProbability(String word, String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 274
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 189
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+12/21/2009 12:03:52 AM Error: RID: 91b759c7-ddea-47f1-8f7c-94692679848c Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+12/22/2009 12:01:44 AM Error: RID: 11c8ff1e-6cc6-4902-b57d-a6039647c9ed Bokardo - Social Design by Joshua Porter was not crawled
+System.Net.WebException was thrown.
+Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+No connection could be made because the target machine actively refused it 64.41.127.81:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+
+
+12/22/2009 12:03:22 AM Error: RID: 11c8ff1e-6cc6-4902-b57d-a6039647c9ed ????? ?????????????????? ?????????????-???? was not crawled
+System.Xml.XmlException was thrown.
+Unexpected XML declaration. The XML declaration must be the first node in the document, and no white space characters are allowed to appear before it. Line 1, position 4.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParsePI(BufferBuilder piInDtdStringBuilder)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at Avilay.Syndication.FeedReaderFactory.GetFeedType(String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 89
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 45
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/22/2009 12:03:49 AM Error: RID: 11c8ff1e-6cc6-4902-b57d-a6039647c9ed SceneDDL was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/22/2009 12:03:50 AM Error: RID: 11c8ff1e-6cc6-4902-b57d-a6039647c9ed Serial Complainer was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+12/22/2009 12:04:32 AM Error: RID: 11c8ff1e-6cc6-4902-b57d-a6039647c9ed Items for f59475fb-3648-45a8-93af-b36763f194ad was not classified
+System.InvalidOperationException was thrown.
+Prob does not exist for user f59475fb-3648-45a8-93af-b36763f194ad and word bbc
+   at Feeder.Repositories.FeederNaiveBayesModel.GetProbability(String word, String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 274
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 189
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+12/22/2009 12:04:32 AM Error: RID: 11c8ff1e-6cc6-4902-b57d-a6039647c9ed Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+12/23/2009 12:01:26 AM Error: RID: cc7ba1ad-eb80-4ec2-ac74-4bfc81d11cc8 Bokardo - Social Design by Joshua Porter was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/23/2009 12:04:18 AM Error: RID: cc7ba1ad-eb80-4ec2-ac74-4bfc81d11cc8 PChome ???? was not crawled
+System.Net.WebException was thrown.
+The request was aborted: The connection was closed unexpectedly.
+   at System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 37
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/23/2009 12:04:46 AM Error: RID: cc7ba1ad-eb80-4ec2-ac74-4bfc81d11cc8 ????? ?????????????????? ?????????????-???? was not crawled
+System.Xml.XmlException was thrown.
+Unexpected XML declaration. The XML declaration must be the first node in the document, and no white space characters are allowed to appear before it. Line 1, position 4.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParsePI(BufferBuilder piInDtdStringBuilder)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at Avilay.Syndication.FeedReaderFactory.GetFeedType(String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 89
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 45
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/23/2009 12:04:55 AM Error: RID: cc7ba1ad-eb80-4ec2-ac74-4bfc81d11cc8 BensBargains.net Latest Deals was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/1 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+Reference to undeclared entity 'acirc'. Line 144, position 41.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.HandleGeneralEntityReference(String name, Boolean isInAttributeValue, Boolean pushFakeEntityIfNullResolver, Int32 entityStartLinePos)
+   at System.Xml.XmlTextReaderImpl.ResolveEntity()
+   at System.Xml.XmlLoader.LoadEntityReferenceNode(Boolean direct)
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+12/23/2009 12:05:13 AM Error: RID: cc7ba1ad-eb80-4ec2-ac74-4bfc81d11cc8 SceneDDL was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+12/23/2009 12:05:14 AM Error: RID: cc7ba1ad-eb80-4ec2-ac74-4bfc81d11cc8 Serial Complainer was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+12/23/2009 12:05:48 AM Error: RID: cc7ba1ad-eb80-4ec2-ac74-4bfc81d11cc8 Items for f59475fb-3648-45a8-93af-b36763f194ad was not classified
+System.InvalidOperationException was thrown.
+Prob does not exist for user f59475fb-3648-45a8-93af-b36763f194ad and word bbc
+   at Feeder.Repositories.FeederNaiveBayesModel.GetProbability(String word, String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 274
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 189
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+12/23/2009 12:05:48 AM Error: RID: cc7ba1ad-eb80-4ec2-ac74-4bfc81d11cc8 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+

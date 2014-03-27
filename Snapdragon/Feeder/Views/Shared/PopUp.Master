@@ -1,0 +1,32 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PopUp.Master.cs" Inherits="Feeder.Views.Shared.PopUp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title><%= Html.Encode(ViewData["Title"]) %></title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <script type="text/javascript">
+        function setScreenSize() {
+            window.resizeTo(500, 500);
+        }
+    </script>
+</head>
+<body onload="setScreenSize()">
+<div class="page">
+
+        
+        <div id="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+            <div id="footer">
+                My Sample MVC Application &copy; Copyright 2008
+            </div>
+        </div>
+    </div>
+
+        
+</body>
+</html>

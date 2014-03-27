@@ -1,0 +1,1698 @@
+9/1/2009 12:02:01 PM Error: RID: d8da60a7-953e-460e-a0fe-7e88f569831c SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/1/2009 12:03:16 PM Error: RID: d8da60a7-953e-460e-a0fe-7e88f569831c Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/1/2009 3:01:13 PM Error: RID: 41224c95-5c69-4ea8-8bb9-9da8ba2dbe05 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/1/2009 3:01:59 PM Error: RID: 41224c95-5c69-4ea8-8bb9-9da8ba2dbe05 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/1/2009 6:01:26 PM Error: RID: d8688abc-21cb-4bab-9182-a1470f454f0a SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/1/2009 6:02:20 PM Error: RID: d8688abc-21cb-4bab-9182-a1470f454f0a Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/1/2009 9:01:38 PM Error: RID: 9c9c2537-5814-4f15-ad70-fe5e9d843208 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/1/2009 9:02:35 PM Error: RID: 9c9c2537-5814-4f15-ad70-fe5e9d843208 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/2/2009 12:01:56 AM Error: RID: e37ecf7b-9810-4db8-9b07-e594c65ee5c4 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/2/2009 12:03:10 AM Error: RID: e37ecf7b-9810-4db8-9b07-e594c65ee5c4 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/2/2009 3:01:44 AM Error: RID: d99c64d8-9bed-4593-b278-44691e6a4082 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/2/2009 3:02:46 AM Error: RID: d99c64d8-9bed-4593-b278-44691e6a4082 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/2/2009 6:01:49 AM Error: RID: 6664ba7b-6fb0-42dc-8294-6b1c9890182d SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/2/2009 6:02:43 AM Error: RID: 6664ba7b-6fb0-42dc-8294-6b1c9890182d Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/2/2009 6:03:04 AM Error: RID: 6664ba7b-6fb0-42dc-8294-6b1c9890182d Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/2/2009 9:01:18 AM Error: RID: ed2f94c0-8261-4228-86c2-a5e2f15fefb7 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/2/2009 9:02:32 AM Error: RID: ed2f94c0-8261-4228-86c2-a5e2f15fefb7 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/2/2009 12:01:19 PM Error: RID: cb540cc7-0859-4df8-aadd-b6dfac41dd7d SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/2/2009 12:03:13 PM Error: RID: cb540cc7-0859-4df8-aadd-b6dfac41dd7d Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/2/2009 3:01:29 PM Error: RID: da7d69c7-6acd-47bd-b828-e8a45031db32 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/2/2009 3:01:57 PM Error: RID: da7d69c7-6acd-47bd-b828-e8a45031db32 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/2/2009 3:02:20 PM Error: RID: da7d69c7-6acd-47bd-b828-e8a45031db32 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/2/2009 6:01:12 PM Error: RID: 7ecac046-21be-480e-90b7-78d94db248d3 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/2/2009 6:01:29 PM Error: RID: 7ecac046-21be-480e-90b7-78d94db248d3 ?z??????????? was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/2/2009 6:01:36 PM Error: RID: 7ecac046-21be-480e-90b7-78d94db248d3 BuzzSugar was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/2/2009 6:01:57 PM Error: RID: 7ecac046-21be-480e-90b7-78d94db248d3 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/2/2009 6:02:22 PM Error: RID: 7ecac046-21be-480e-90b7-78d94db248d3 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/2/2009 9:01:31 PM Error: RID: 82a92035-4b4a-4f4d-b802-3ae70204ff78 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/2/2009 9:02:36 PM Error: RID: 82a92035-4b4a-4f4d-b802-3ae70204ff78 BuzzSugar was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/2/2009 9:02:51 PM Error: RID: 82a92035-4b4a-4f4d-b802-3ae70204ff78 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/2/2009 9:03:15 PM Error: RID: 82a92035-4b4a-4f4d-b802-3ae70204ff78 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/3/2009 12:01:44 AM Error: RID: f1bc78ed-dfd0-49d1-b794-725b0cc894c9 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/3/2009 12:02:04 AM Error: RID: f1bc78ed-dfd0-49d1-b794-725b0cc894c9 BuzzSugar was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/3/2009 12:02:18 AM Error: RID: f1bc78ed-dfd0-49d1-b794-725b0cc894c9 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/3/2009 12:02:42 AM Error: RID: f1bc78ed-dfd0-49d1-b794-725b0cc894c9 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/3/2009 3:01:56 AM Error: RID: 01c3f146-25b9-4504-8ef3-91434b868f80 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/3/2009 3:02:41 AM Error: RID: 01c3f146-25b9-4504-8ef3-91434b868f80 BuzzSugar was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/3/2009 3:02:56 AM Error: RID: 01c3f146-25b9-4504-8ef3-91434b868f80 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/3/2009 3:03:25 AM Error: RID: 01c3f146-25b9-4504-8ef3-91434b868f80 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/3/2009 6:02:20 AM Error: RID: afc4d0d8-c9de-40a1-abf4-3b6bfcb33565 PChome ???? was not crawled
+System.Net.WebException was thrown.
+The request was aborted: The connection was closed unexpectedly.
+   at System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 37
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/3/2009 6:02:20 AM Error: RID: afc4d0d8-c9de-40a1-abf4-3b6bfcb33565 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/3/2009 6:02:46 AM Error: RID: afc4d0d8-c9de-40a1-abf4-3b6bfcb33565 BuzzSugar was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/3/2009 6:03:07 AM Error: RID: afc4d0d8-c9de-40a1-abf4-3b6bfcb33565 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/3/2009 9:01:32 AM Error: RID: 662e2c48-a028-4284-ad4c-7be5f44188d5 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/3/2009 9:01:59 AM Error: RID: 662e2c48-a028-4284-ad4c-7be5f44188d5 BuzzSugar was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/3/2009 9:02:51 AM Error: RID: 1d6181fb-bbde-45f0-879c-3bd713e8beeb Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/3/2009 12:01:45 PM Error: RID: a58e1fdc-b019-4d0c-98eb-a063ebeaf04e SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/3/2009 3:01:37 PM Error: RID: 5362a508-922d-40ad-9891-d3f490d989f9 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/3/2009 3:01:55 PM Error: RID: 5362a508-922d-40ad-9891-d3f490d989f9 Marty Collins was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/3/2009 6:01:33 PM Error: RID: 2e4d62ef-6bf1-4170-97af-5a0e5372dc7d SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/3/2009 6:02:44 PM Error: RID: 2e4d62ef-6bf1-4170-97af-5a0e5372dc7d Items for f59475fb-3648-45a8-93af-b36763f194ad was not classified
+System.Threading.ThreadAbortException was thrown.
+Thread was being aborted.
+   at System.Object.InternalGetHashCode(Object obj)
+   at System.Object.GetHashCode()
+   at System.Data.Linq.SqlClient.SqlColumnRef.GetHashCode()
+   at System.Collections.Generic.ObjectEqualityComparer`1.GetHashCode(T obj)
+   at System.Collections.Generic.HashSet`1.InternalGetHashCode(T item)
+   at System.Collections.Generic.HashSet`1.AddIfNotPresent(T value)
+   at System.Collections.Generic.HashSet`1.Add(T item)
+   at System.Data.Linq.SqlClient.SqlColumnizer.ColumnNominator.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitExpression(SqlExpression exp)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitNew(SqlNew sox)
+   at System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlColumnizer.ColumnNominator.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlColumnizer.ColumnNominator.Nominate(SqlExpression expression)
+   at System.Data.Linq.SqlClient.SqlColumnizer.ColumnizeSelection(SqlExpression selection)
+   at System.Data.Linq.SqlClient.SqlFlattener.Visitor.FlattenSelection(SqlRow row, Boolean isInput, SqlExpression selection)
+   at System.Data.Linq.SqlClient.SqlFlattener.Visitor.VisitSelect(SqlSelect select)
+   at System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitAlias(SqlAlias a)
+   at System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitSource(SqlSource source)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitSelectCore(SqlSelect select)
+   at System.Data.Linq.SqlClient.SqlFlattener.Visitor.VisitSelectCore(SqlSelect select)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitSelect(SqlSelect select)
+   at System.Data.Linq.SqlClient.SqlFlattener.Visitor.VisitSelect(SqlSelect select)
+   at System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitSequence(SqlSelect sel)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitUpdate(SqlUpdate update)
+   at System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlFlattener.Flatten(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlProvider.BuildQuery(ResultShape resultShape, Type resultType, SqlNode node, ReadOnlyCollection`1 parentParameters, SqlNodeAnnotations annotations)
+   at System.Data.Linq.SqlClient.SqlProvider.BuildQuery(Expression query, SqlNodeAnnotations annotations)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Update(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.ItemRepository.SetClassification(Guid userId, Dictionary`2 predictions) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\ItemRepository.cs:line 273
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 130
+
+
+9/3/2009 9:01:27 PM Error: RID: 772e8b7d-2630-49a8-8745-8136792a3ca0 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/3/2009 9:01:55 PM Error: RID: 772e8b7d-2630-49a8-8745-8136792a3ca0 ????? ?????????????????? ?????????????-???? was not crawled
+System.Net.WebException was thrown.
+Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 219.239.88.180:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+
+
+9/4/2009 12:00:34 AM Error: RID: 412261db-8afc-4d2a-8068-90d3dd6b212b TechCrunch was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feedproxy.google.com/TechCrunch XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+An error occurred while parsing EntityName. Line 121, position 47.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseEntityName()
+   at System.Xml.XmlTextReaderImpl.ParseEntityReference()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 12:01:12 AM Error: RID: 412261db-8afc-4d2a-8068-90d3dd6b212b ESPNSTAR.COM.CN was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (504) Gateway Timeout.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/4/2009 12:01:38 AM Error: RID: 412261db-8afc-4d2a-8068-90d3dd6b212b PChome ???? was not crawled
+System.Net.WebException was thrown.
+The request was aborted: The connection was closed unexpectedly.
+   at System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 37
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/4/2009 12:01:38 AM Error: RID: 412261db-8afc-4d2a-8068-90d3dd6b212b SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 12:03:07 AM Error: RID: 412261db-8afc-4d2a-8068-90d3dd6b212b Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/4/2009 3:00:56 AM Error: RID: fd751573-ee7a-46d3-a0b0-92d8dd4ea662 TechCrunch was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feedproxy.google.com/TechCrunch XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+An error occurred while parsing EntityName. Line 436, position 47.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseEntityName()
+   at System.Xml.XmlTextReaderImpl.ParseEntityReference()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 3:02:37 AM Error: RID: fd751573-ee7a-46d3-a0b0-92d8dd4ea662 Perspectives was not crawled
+System.Net.WebException was thrown.
+The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/4/2009 3:04:08 AM Error: RID: fd751573-ee7a-46d3-a0b0-92d8dd4ea662 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 3:05:35 AM Error: RID: fd751573-ee7a-46d3-a0b0-92d8dd4ea662 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/4/2009 6:00:45 AM Error: RID: 31bc8fa6-4b82-476a-9555-171a2b18de6a TechCrunch was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feedproxy.google.com/TechCrunch XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+An error occurred while parsing EntityName. Line 639, position 47.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseEntityName()
+   at System.Xml.XmlTextReaderImpl.ParseEntityReference()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 6:02:26 AM Error: RID: 31bc8fa6-4b82-476a-9555-171a2b18de6a Perspectives was not crawled
+System.Net.WebException was thrown.
+The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/4/2009 6:03:28 AM Error: RID: 31bc8fa6-4b82-476a-9555-171a2b18de6a PChome ???? was not crawled
+System.Net.WebException was thrown.
+The request was aborted: The connection was closed unexpectedly.
+   at System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 37
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/4/2009 6:03:28 AM Error: RID: 31bc8fa6-4b82-476a-9555-171a2b18de6a SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 6:05:43 AM Error: RID: 31bc8fa6-4b82-476a-9555-171a2b18de6a Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/4/2009 9:00:50 AM Error: RID: 782772c5-8eba-4cb4-b3e3-82f92bc0bd3e TechCrunch was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feedproxy.google.com/TechCrunch XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+An error occurred while parsing EntityName. Line 750, position 47.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseEntityName()
+   at System.Xml.XmlTextReaderImpl.ParseEntityReference()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 9:02:11 AM Error: RID: 782772c5-8eba-4cb4-b3e3-82f92bc0bd3e SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 9:03:33 AM Error: RID: 782772c5-8eba-4cb4-b3e3-82f92bc0bd3e Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/4/2009 12:00:47 PM Error: RID: 80e677b7-6d2b-4fac-b8fb-42589448b08e TechCrunch was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feedproxy.google.com/TechCrunch XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+An error occurred while parsing EntityName. Line 1065, position 47.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseEntityName()
+   at System.Xml.XmlTextReaderImpl.ParseEntityReference()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 12:01:42 PM Error: RID: 80e677b7-6d2b-4fac-b8fb-42589448b08e SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 12:02:46 PM Error: RID: 80e677b7-6d2b-4fac-b8fb-42589448b08e Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/4/2009 3:02:45 PM Error: RID: 6d7d643a-1fe6-4e3f-a716-838abce2f0b3 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 3:02:59 PM Error: RID: 6d7d643a-1fe6-4e3f-a716-838abce2f0b3 BensBargains.net Latest Headlines was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/0 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+Reference to undeclared entity 'acirc'. Line 32, position 39.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.HandleGeneralEntityReference(String name, Boolean isInAttributeValue, Boolean pushFakeEntityIfNullResolver, Int32 entityStartLinePos)
+   at System.Xml.XmlTextReaderImpl.ResolveEntity()
+   at System.Xml.XmlLoader.LoadEntityReferenceNode(Boolean direct)
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 3:02:59 PM Error: RID: 6d7d643a-1fe6-4e3f-a716-838abce2f0b3 BensBargains.net Latest Deals was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/1 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+Reference to undeclared entity 'acirc'. Line 25, position 39.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.HandleGeneralEntityReference(String name, Boolean isInAttributeValue, Boolean pushFakeEntityIfNullResolver, Int32 entityStartLinePos)
+   at System.Xml.XmlTextReaderImpl.ResolveEntity()
+   at System.Xml.XmlLoader.LoadEntityReferenceNode(Boolean direct)
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 3:02:59 PM Error: RID: 6d7d643a-1fe6-4e3f-a716-838abce2f0b3 Penny Arcade was not crawled
+System.Threading.ThreadAbortException was thrown.
+Thread was being aborted.
+   at System.IO.StreamReader.Init(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(Stream stream, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(Stream stream)
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 36
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/4/2009 6:01:22 PM Error: RID: 68a6b28f-4a5b-4402-8d38-74708441352f SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 6:01:35 PM Error: RID: 68a6b28f-4a5b-4402-8d38-74708441352f BensBargains.net Latest Headlines was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/0 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+Reference to undeclared entity 'acirc'. Line 102, position 39.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.HandleGeneralEntityReference(String name, Boolean isInAttributeValue, Boolean pushFakeEntityIfNullResolver, Int32 entityStartLinePos)
+   at System.Xml.XmlTextReaderImpl.ResolveEntity()
+   at System.Xml.XmlLoader.LoadEntityReferenceNode(Boolean direct)
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 6:01:35 PM Error: RID: 68a6b28f-4a5b-4402-8d38-74708441352f BensBargains.net Latest Deals was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/1 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+Reference to undeclared entity 'acirc'. Line 95, position 39.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.HandleGeneralEntityReference(String name, Boolean isInAttributeValue, Boolean pushFakeEntityIfNullResolver, Int32 entityStartLinePos)
+   at System.Xml.XmlTextReaderImpl.ResolveEntity()
+   at System.Xml.XmlLoader.LoadEntityReferenceNode(Boolean direct)
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 6:02:24 PM Error: RID: 68a6b28f-4a5b-4402-8d38-74708441352f Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/4/2009 9:01:59 PM Error: RID: 879afc45-dbfc-486e-b3f4-bc6d54ba59a7 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 9:02:13 PM Error: RID: 879afc45-dbfc-486e-b3f4-bc6d54ba59a7 BensBargains.net Latest Headlines was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/0 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+Reference to undeclared entity 'acirc'. Line 130, position 39.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.HandleGeneralEntityReference(String name, Boolean isInAttributeValue, Boolean pushFakeEntityIfNullResolver, Int32 entityStartLinePos)
+   at System.Xml.XmlTextReaderImpl.ResolveEntity()
+   at System.Xml.XmlLoader.LoadEntityReferenceNode(Boolean direct)
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 9:02:13 PM Error: RID: 879afc45-dbfc-486e-b3f4-bc6d54ba59a7 BensBargains.net Latest Deals was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/1 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+Reference to undeclared entity 'acirc'. Line 123, position 39.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.HandleGeneralEntityReference(String name, Boolean isInAttributeValue, Boolean pushFakeEntityIfNullResolver, Int32 entityStartLinePos)
+   at System.Xml.XmlTextReaderImpl.ResolveEntity()
+   at System.Xml.XmlLoader.LoadEntityReferenceNode(Boolean direct)
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/4/2009 9:02:57 PM Error: RID: 879afc45-dbfc-486e-b3f4-bc6d54ba59a7 Items for 17a42d7e-d2ce-44d8-943b-aa9db567664d was not classified
+System.Threading.ThreadAbortException was thrown.
+Thread was being aborted.
+   at SNINativeMethodWrapper.SNIPacketGetConnection(IntPtr packet)
+   at System.Data.SqlClient.TdsParserStateObject.ProcessSniPacket(IntPtr packet, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Feeder.Repositories.ItemRepository.SetClassification(Guid userId, Dictionary`2 predictions) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\ItemRepository.cs:line 263
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 130
+
+
+9/5/2009 12:02:33 AM Error: RID: 81df62f8-f306-462d-97b6-94ed4c089217 PChome ???? was not crawled
+System.Net.WebException was thrown.
+The request was aborted: The connection was closed unexpectedly.
+   at System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 37
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/5/2009 12:02:36 AM Error: RID: 81df62f8-f306-462d-97b6-94ed4c089217 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 12:03:11 AM Error: RID: 81df62f8-f306-462d-97b6-94ed4c089217 BensBargains.net Latest Headlines was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/0 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+Reference to undeclared entity 'acirc'. Line 137, position 39.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.HandleGeneralEntityReference(String name, Boolean isInAttributeValue, Boolean pushFakeEntityIfNullResolver, Int32 entityStartLinePos)
+   at System.Xml.XmlTextReaderImpl.ResolveEntity()
+   at System.Xml.XmlLoader.LoadEntityReferenceNode(Boolean direct)
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 12:03:11 AM Error: RID: 81df62f8-f306-462d-97b6-94ed4c089217 BensBargains.net Latest Deals was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/1 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+Reference to undeclared entity 'acirc'. Line 130, position 39.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   at System.Xml.XmlTextReaderImpl.HandleGeneralEntityReference(String name, Boolean isInAttributeValue, Boolean pushFakeEntityIfNullResolver, Int32 entityStartLinePos)
+   at System.Xml.XmlTextReaderImpl.ResolveEntity()
+   at System.Xml.XmlLoader.LoadEntityReferenceNode(Boolean direct)
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 12:03:36 AM Error: RID: 81df62f8-f306-462d-97b6-94ed4c089217 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/5/2009 12:04:34 AM Error: RID: 81df62f8-f306-462d-97b6-94ed4c089217 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/5/2009 3:01:39 AM Error: RID: 7172295f-06d2-433e-9c83-24faaf1a2b58 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 6:03:46 AM Error: RID: 268053d3-eefb-48e4-84fa-acb7866b8a26 PChome ???? was not crawled
+System.IO.IOException was thrown.
+Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
+   at System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 37
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+
+
+9/5/2009 6:03:46 AM Error: RID: 268053d3-eefb-48e4-84fa-acb7866b8a26 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 6:04:28 AM Error: RID: 268053d3-eefb-48e4-84fa-acb7866b8a26 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/5/2009 6:05:10 AM Error: RID: 268053d3-eefb-48e4-84fa-acb7866b8a26 Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/5/2009 9:01:46 AM Error: RID: bfa90b58-f3b3-4087-8e2e-b70abe4447e7 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 9:02:11 AM Error: RID: bfa90b58-f3b3-4087-8e2e-b70abe4447e7 BensBargains.net Latest Headlines was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/0 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 98, position 386.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 9:02:12 AM Error: RID: bfa90b58-f3b3-4087-8e2e-b70abe4447e7 BensBargains.net Latest Deals was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://bensbargains.net/rss.xml/1 XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 98, position 386.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 9:02:33 AM Error: RID: bfa90b58-f3b3-4087-8e2e-b70abe4447e7 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/5/2009 12:01:34 PM Error: RID: 9a0ed75f-f182-4075-9954-085891d6eef0 SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 12:02:10 PM Error: RID: 9a0ed75f-f182-4075-9954-085891d6eef0 Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/5/2009 3:01:31 PM Error: RID: b3d7c1a2-4322-4d90-80a3-1f01921d29bb SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 3:01:54 PM Error: RID: b3d7c1a2-4322-4d90-80a3-1f01921d29bb FlightBliss Current Issue was not crawled
+System.Threading.ThreadAbortException was thrown.
+Thread was being aborted.
+   at Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter.Write(LogEntry log)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.Write(Object message, ICollection`1 categories, Int32 priority, Int32 eventId, TraceEventType severity, String title, IDictionary`2 properties)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.Write(Object message, String category, Int32 priority, Int32 eventId, TraceEventType severity, String title, IDictionary`2 properties)
+   at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.Write(Object message, String category, Int32 priority, Int32 eventId, TraceEventType severity)
+   at Feeder.MvcApplication.Warning(String msg) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Global.asax.cs:line 65
+   at Avilay.Utils.Logging.LogFunctions.Warn(String msg) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Avilay.Utils\Avilay.Utils\LogFunctions.cs:line 124
+   at Avilay.Syndication.RssReader.AllFeedItems() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 128
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 93
+
+
+9/5/2009 6:02:00 PM Error: RID: 808d202d-3577-406a-841c-feda005f3f1d SANS Institute - ALL Upcoming Webcasts was not crawled
+Avilay.Syndication.BadlyFormedFeedException was thrown.
+http://feeds.feedburner.com/SansInstituteWebcasts XML is badly formed
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 36
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri, String content) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 50
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 41
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+'', hexadecimal value 0x0B, is an invalid character. Line 64, position 65.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.Throw(Int32 pos, String res, String[] args)
+   at System.Xml.XmlTextReaderImpl.ThrowInvalidChar(Int32 pos, Char invChar)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type, Int32& outStartPos, Int32& outEndPos)
+   at System.Xml.XmlTextReaderImpl.ParseCDataOrComment(XmlNodeType type)
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(TextReader txtReader)
+   at Avilay.Syndication.RssReader..ctor(Uri feedUrl, String data) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\RssReader.cs:line 33
+
+
+9/5/2009 6:02:42 PM Error: RID: 808d202d-3577-406a-841c-feda005f3f1d Twitter / spoilerfix was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 79
+
+
+9/5/2009 6:03:19 PM Error: RID: 808d202d-3577-406a-841c-feda005f3f1d Items for 55221e25-c13e-44e5-87a8-7766e41bebd1 was not classified
+System.InvalidOperationException was thrown.
+Prior does not exist for user 55221e25-c13e-44e5-87a8-7766e41bebd1
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 259
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 182
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+9/9/2009 5:59:48 AM Error: RID: d22c17c8-8302-4813-91ca-bed352cdc5fb I. M. Wright’s “Hard Code” was not crawled
+System.Net.WebException was thrown.
+The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 78
+
+
+9/9/2009 5:59:55 AM Error: RID: d22c17c8-8302-4813-91ca-bed352cdc5fb World - Google News was not crawled
+System.Data.SqlClient.SqlException was thrown.
+Could not allocate space for object 'dbo.Item'.'PK_Item' in database 'avilay_db1' because the 'PRIMARY' filegroup is full. Create disk space by deleting unneeded files, dropping objects in the filegroup, adding additional files to the filegroup, or setting autogrowth on for existing files in the filegroup.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.ItemRepository.Add(Item itemToAdd, Int32 feedId) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\ItemRepository.cs:line 56
+   at Feeder.Services.DaemonService.ProcessDateLess(Item item, Feed feed) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 185
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 95
+

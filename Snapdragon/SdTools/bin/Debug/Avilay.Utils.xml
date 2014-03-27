@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Avilay.Utils</name>
+    </assembly>
+    <members>
+        <member name="T:Avilay.Utils.BinaryFormat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Avilay.Utils.BinaryFormat.GetFormat(System.Type)">
+            <summary>
+            Cookie cutter method used by string.Format
+            </summary>
+            <param name="formatType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.BinaryFormat.Format(System.String,System.Object,System.IFormatProvider)">
+            <summary>
+            string.Format(new BinaryFormat(), "{0:BIN}", Convert.ToString(x, 2))
+            would return "1111 1111"
+            </summary>
+            <param name="format"></param>
+            <param name="arg"></param>
+            <param name="formatProvider"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Avilay.Utils.DbUtils">
+            <summary>
+            
+            </summary>
+            <example>
+            string cmuBooks = @"Data Source=AVILAYPDESKTOP\SQLEXPRESS;Initial Catalog=CmuBooks;Integrated Security=True";
+            string copyOfCmuBooks = @"Data Source=AVILAYPDESKTOP\SQLEXPRESS;Initial Catalog=CopyOfCmuBooks;Integrated Security=True";
+            string[] tables = { "Author", "Branch", "Publisher", "Book", "Inventory", "Wrote" };
+            DbUtils.CopyTables(cmuBooks, copyOfCmuBooks, tables);
+            DbUtils.DbUsage dbusage = new DbUtils.DbUsage(tables);
+            dbusage.Calculate(cmuBooks);
+            Console.WriteLine(dbusage.ToString());
+            dbusage.Calculate(copyOfCmuBooks);
+            Console.WriteLine(dbusage.ToString());
+            </example>
+        </member>
+        <member name="M:Avilay.Utils.DbUtils.CopyTables(System.String,System.String,System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="source"></param>
+            <param name="dest"></param>
+            <param name="tables">array is in order the tables should be added</param>
+            <returns></returns>
+        </member>
+        <member name="T:Avilay.Utils.DbUtils.DbUsage">
+            <summary>
+            Class to calculate and store db usage information
+            </summary>
+        </member>
+        <member name="M:Avilay.Utils.DbUtils.DbUsage.#ctor(System.String[])">
+            <summary>
+            Provide the list of tables that should be included in the usage data
+            </summary>
+            <param name="tables"></param>
+        </member>
+        <member name="M:Avilay.Utils.DbUtils.DbUsage.GetTableUsage(System.String)">
+            <summary>
+            Gets the sum of 'data' field and 'index_size' field of sp_spaceused N'table' stored proc
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.DbUtils.DbUsage.Calculate(System.String)">
+            <summary>
+            Calculates usage data
+            </summary>
+            <param name="connStr"></param>
+        </member>
+        <member name="M:Avilay.Utils.DbUtils.DbUsage.ToString">
+            <summary>
+            For easy output
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Avilay.Utils.DbUtils.DbUsage.Total">
+            <summary>
+            Gets the sum of 'data' field and 'index_size' field of sp_spaceused stored proc
+            </summary>
+        </member>
+        <member name="P:Avilay.Utils.DbUtils.DbUsage.Tables">
+            <summary>
+            Gets the list of tables that are included in the usage data
+            </summary>
+        </member>
+        <member name="P:Avilay.Utils.DbUtils.DbUsage.Unused">
+            <summary>
+            Gets the value of unused column of sp_spaceused stored proc
+            </summary>
+        </member>
+        <member name="P:Avilay.Utils.DbUtils.DbUsage.Reserved">
+            <summary>
+            Gets the value of resverd column of sp_spaceused stored proc
+            </summary>
+        </member>
+        <member name="T:Avilay.Utils.WebUtils">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Avilay.Utils.WebUtils.DownloadPage(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.TextUtils.DictionaryToCsv(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.Dictionary{System.String,System.String}},System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="csvFilePath"></param>
+            <param name="objects"></param>
+            <param name="labels"></param>
+        </member>
+        <member name="T:Avilay.Utils.RestClient">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Avilay.Utils.RestClient.Get(System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            
+            </summary>
+            <param name="svcParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.RestClient.Post(System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            
+            </summary>
+            <param name="svcParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.RestClient.Delete">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.RestClient.Head">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.RestClient.Put">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Avilay.Utils.DataStructures.BinaryTree`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Avilay.Utils.DataStructures.BinaryTree`1.Clear">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Avilay.Utils.DataStructures.BinaryTree`1.Root">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Avilay.Utils.HtmlParser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Avilay.Utils.HtmlParser.ExtractLinks(System.Uri)">
+            <summary>
+            
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.HtmlParser.ExtractLinks(System.Uri,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="source"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Avilay.Utils.DateTimeParserForRfc822">
+            <summary>
+            The default DateTime.Parse does not support all the timezones from RFC 822 which is what RSS 2.0 follows. It only supports the GMT time zone.
+            Tue, 10 Jun 2003 09:41:01 GMT is a valid date.
+            But Tue, 10 Jun 2003 09:41:01 PST is not.
+            These extenstion methods provide this functionality.
+            </summary>
+        </member>
+        <member name="M:Avilay.Utils.DateTimeParserForRfc822.Parse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)">
+            <summary>
+            Static method which will check the passed in string to see if it has any of the timezones defined in RFC 822. After that it calls the DateTime.Parse method
+            to actually do the conversion.
+            </summary>
+            <param name="s"></param>
+            <param name="fp"></param>
+            <param name="dts"></param>
+            <returns>A valid DateTime object representing the string passed in</returns>
+            <exception cref="T:System.FormatException">Is thrown if the passed in string cannot be converted to DateTime</exception>
+        </member>
+        <member name="M:Avilay.Utils.DateTimeParserForRfc822.TryParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)">
+            <summary>
+            Static method which will check the passed in string to see if it has any of the timezones defined in RFC 822. After that it calls the DateTime.Parse method
+            to actually do the conversion. This method will never throw an exception.
+            </summary>
+            <param name="s"></param>
+            <param name="fp"></param>
+            <param name="dts"></param>
+            <param name="ret"></param>
+            <returns>If the conversion succeeds it returns true otherwise false</returns>
+        </member>
+        <member name="T:Avilay.Utils.TermExtractor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Avilay.Utils.TermExtractor.Extract(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.CollectionsExtensions.AreEquivalent``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj1"></param>
+            <param name="obj2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.CollectionsExtensions.ArgMin``1(System.Collections.Generic.ICollection{``0})">
+            <summary>
+            Retruns the index of the first occurance of the minimum value
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj1"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Avilay.Utils.Logging.LogFunc">
+            <summary>
+            Delegate to log a message.
+            </summary>
+            <param name="msg">The string message to be logged.</param>
+        </member>
+        <member name="T:Avilay.Utils.Logging.ExceptionFunc">
+            <summary>
+            Delegate to log an exception.
+            </summary>
+            <param name="exception">The exception to be logged.</param>
+            <param name="msg"></param>
+        </member>
+        <member name="T:Avilay.Utils.Logging.LogFunctions">
+            <summary>
+            LogFunctions is a static class to collect 4 logging functions in one place - log a debug message, log an info message, log a warning, and log an error.
+            The client has the option to use the default functions provided as part of this class to log these messages to stderr. This is enabled when the client calls SetDefaults.
+            Alternately, client can use some other logging mechanism by wiring up custom logging functions to delegates contained in this class by calling SetFunctions.
+            If different parts of the client code set different logging functions then it might lead to behaviour client did not expect. To prevent this from happening, logging functions
+            can be set only once in one assembly context. Calling SetDefaults after calling SetFunctions, or vice-versa would throw an exception. This sacrifices the flexibility of being
+            able to switch logging mechanisms at runtime.
+            </summary>
+        </member>
+        <member name="M:Avilay.Utils.Logging.LogFunctions.SetDefaults">
+            <summary>
+            Sets stderr as the default for output for logs. Log format will be:
+            -------------------------------------
+            11/9/2008 4:11:52 PM: DEBUG: hello test debug log
+            -------------------------------------
+            For exceptions, the stacktrace of the passed in exception along with all inner exceptions is sent to stderr.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">This is thrown if SetDefaults is called after functions have been set once.</exception>
+        </member>
+        <member name="M:Avilay.Utils.Logging.LogFunctions.IsSet">
+            <summary>
+            Main use case for this method is when using inside unit tests. Each test file can call this and conditionally set the defaults.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Avilay.Utils.Logging.LogFunctions.SetFunctions(Avilay.Utils.Logging.LogFunc,Avilay.Utils.Logging.LogFunc,Avilay.Utils.Logging.LogFunc,Avilay.Utils.Logging.LogFunc,Avilay.Utils.Logging.ExceptionFunc,Avilay.Utils.Logging.ExceptionFunc)">
+            <summary>
+            Sets the functions written by client
+            </summary>
+            <param name="debug"></param>
+            <param name="info"></param>
+            <param name="warn"></param>
+            <param name="error"></param>
+            <param name="warnException"></param>
+            <param name="errorException"></param>
+            <exception cref="T:System.InvalidOperationException">Thrown when LogFunctions.SetFunctions or LogFunctions.SetDefaults has been called once before.</exception>
+        </member>
+        <member name="M:Avilay.Utils.Logging.LogFunctions.Debug(System.String)">
+            <summary>
+            Writes a debug log
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Avilay.Utils.Logging.LogFunctions.Info(System.String)">
+            <summary>
+            Writes an info log
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Avilay.Utils.Logging.LogFunctions.Warn(System.String)">
+            <summary>
+            Writes a warning log
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Avilay.Utils.Logging.LogFunctions.Error(System.String)">
+            <summary>
+            Writes an error log
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Avilay.Utils.Logging.LogFunctions.Warn(System.String,System.Exception)">
+            <summary>
+            Writes out an exception as a warning
+            </summary>
+            <param name="msg"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:Avilay.Utils.Logging.LogFunctions.Error(System.String,System.Exception)">
+            <summary>
+            Writes out an exception as an error
+            </summary>
+            <param name="exception"></param>
+            <param name="msg"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:Avilay.Utils.GetOpts.ARGUMENT_REQUIRED" -->
+    </members>
+</doc>

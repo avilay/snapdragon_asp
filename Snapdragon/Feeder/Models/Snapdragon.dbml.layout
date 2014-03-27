@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 17.625, 12" name="Snapdragon">
+  <DataContextMoniker Name="/SnapdragonDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9e396e9f-2798-4aaa-813c-18801abe0724" absoluteBounds="6.25, 0.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SnapdragonDataContext/Feed" />
+      <nestedChildShapes>
+        <elementListCompartment Id="216ff844-72e1-4cdb-a987-f6a0df59410e" absoluteBounds="6.2650000000000006, 1.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee8f883d-4494-438f-9b45-96ec505d93f4" absoluteBounds="6.125, 3.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SnapdragonDataContext/UserFeed" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c84703ac-6395-4719-b49b-66296e648e58" absoluteBounds="6.1400000000000006, 4.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.65625 : 2.78049967447917); (7.65625 : 3.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/Feed/Feed_UserFeed" />
+      <nodes>
+        <classShapeMoniker Id="9e396e9f-2798-4aaa-813c-18801abe0724" />
+        <classShapeMoniker Id="ee8f883d-4494-438f-9b45-96ec505d93f4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8961b4a5-cfb1-4512-8e08-d5e673662e3e" absoluteBounds="9, 7.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SnapdragonDataContext/aspnet_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f94a15bf-19da-43d9-a29e-5672006f529d" absoluteBounds="9.015, 7.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9 : 8.45274983723958); (7.125 : 8.45274983723958); (7.125 : 5.2612939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/aspnet_User/aspnet_User_UserFeed" />
+      <nodes>
+        <classShapeMoniker Id="8961b4a5-cfb1-4512-8e08-d5e673662e3e" />
+        <classShapeMoniker Id="ee8f883d-4494-438f-9b45-96ec505d93f4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2a2aba4e-c86f-4bfc-8144-4a2f5dea5590" absoluteBounds="9.125, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/SnapdragonDataContext/Item" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09fc1a74-d52e-40ed-8777-0a20eab801d1" absoluteBounds="9.14, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.25 : 1.70274983723958); (9.125 : 1.70274983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/Feed/Feed_Item" />
+      <nodes>
+        <classShapeMoniker Id="9e396e9f-2798-4aaa-813c-18801abe0724" />
+        <classShapeMoniker Id="2a2aba4e-c86f-4bfc-8144-4a2f5dea5590" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="69a3a1ec-7c14-4a1b-8729-da4f746c4997" absoluteBounds="12.125, 3.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/SnapdragonDataContext/Classification" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0671a84-1640-476c-ace1-8fcd05c16d1d" absoluteBounds="12.14, 3.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e95927a-936f-46fe-b310-f37ff1fdb7bb" absoluteBounds="12.25, 5.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SnapdragonDataContext/Prior" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2b08c0e5-5efc-423b-a358-40c3990ea91d" absoluteBounds="12.265, 5.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(13.1875 : 4.31899251302083); (13.1875 : 5.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/Classification/Classification_Prior" />
+      <nodes>
+        <classShapeMoniker Id="69a3a1ec-7c14-4a1b-8729-da4f746c4997" />
+        <classShapeMoniker Id="3e95927a-936f-46fe-b310-f37ff1fdb7bb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 7.71875); (13.03125 : 7.71875); (13.03125 : 6.95359537760417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/aspnet_User/aspnet_User_Prior" />
+      <nodes>
+        <classShapeMoniker Id="8961b4a5-cfb1-4512-8e08-d5e673662e3e" />
+        <classShapeMoniker Id="3e95927a-936f-46fe-b310-f37ff1fdb7bb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="340d18b0-bd70-4b0b-a15e-2728e53958fb" absoluteBounds="15.375, 4, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SnapdragonDataContext/Probability" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e8411fb0-477f-4fc4-932d-bb038b04353d" absoluteBounds="15.39, 4.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(14.125 : 4.15949625651042); (15.375 : 4.15949625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/Classification/Classification_Probability" />
+      <nodes>
+        <classShapeMoniker Id="69a3a1ec-7c14-4a1b-8729-da4f746c4997" />
+        <classShapeMoniker Id="340d18b0-bd70-4b0b-a15e-2728e53958fb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3c95e6ff-019b-42f0-bc62-2ae33e0407ae" absoluteBounds="13.5, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/SnapdragonDataContext/Stopword" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2eb5eaaf-3b86-4f20-ac0d-58ee01d2d8b8" absoluteBounds="13.515, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8394c8e2-0a8e-4e14-a9aa-63f63f4d4bc9" absoluteBounds="13.875, 7.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SnapdragonDataContext/UserVocabulary" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2cbe8e84-4fd1-4bcb-9197-93d5af9dce1d" absoluteBounds="13.89, 8.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(15.625 : 7.625); (15.625 : 5.57859537760417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/UserVocabulary/UserVocabulary_Probability" />
+      <nodes>
+        <classShapeMoniker Id="8394c8e2-0a8e-4e14-a9aa-63f63f4d4bc9" />
+        <classShapeMoniker Id="340d18b0-bd70-4b0b-a15e-2728e53958fb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 8.42752197265625); (13.875 : 8.42752197265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/aspnet_User/aspnet_User_UserVocabulary" />
+      <nodes>
+        <classShapeMoniker Id="8961b4a5-cfb1-4512-8e08-d5e673662e3e" />
+        <classShapeMoniker Id="8394c8e2-0a8e-4e14-a9aa-63f63f4d4bc9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2724b8c9-983a-4608-8de6-f372dc39b685" absoluteBounds="14.125, 9.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/SnapdragonDataContext/Vocabulary" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9f49f82-ebc9-4a6e-baad-424c82006962" absoluteBounds="14.14, 10.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(15 : 9.75); (15 : 9.0112939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/Vocabulary/Vocabulary_UserVocabulary" />
+      <nodes>
+        <classShapeMoniker Id="2724b8c9-983a-4608-8de6-f372dc39b685" />
+        <classShapeMoniker Id="8394c8e2-0a8e-4e14-a9aa-63f63f4d4bc9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="968bcfc1-60f0-4f6e-89a9-e1a71abccdd2" absoluteBounds="9.125, 3.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SnapdragonDataContext/UserItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48955ac3-d0d8-43d8-8a2c-77bc30281232" absoluteBounds="9.14, 4.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.125 : 4.09699625651042); (11.125 : 4.09699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/Classification/Classification_UserItem" />
+      <nodes>
+        <classShapeMoniker Id="69a3a1ec-7c14-4a1b-8729-da4f746c4997" />
+        <classShapeMoniker Id="968bcfc1-60f0-4f6e-89a9-e1a71abccdd2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.125 : 3.0401025390625); (10.125 : 3.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/Item/Item_UserItem" />
+      <nodes>
+        <classShapeMoniker Id="2a2aba4e-c86f-4bfc-8144-4a2f5dea5590" />
+        <classShapeMoniker Id="968bcfc1-60f0-4f6e-89a9-e1a71abccdd2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.0625 : 7.375); (10.0625 : 6.22280110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/aspnet_User/aspnet_User_UserItem" />
+      <nodes>
+        <classShapeMoniker Id="8961b4a5-cfb1-4512-8e08-d5e673662e3e" />
+        <classShapeMoniker Id="968bcfc1-60f0-4f6e-89a9-e1a71abccdd2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="cfaa5399-1917-492c-b53b-80f6346bed51" absoluteBounds="9, 10.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SnapdragonDataContext/UserHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d0d7b644-35b9-4322-8456-2e12f3b02633" absoluteBounds="9.015, 10.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10 : 9.53049967447917); (10 : 10.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SnapdragonDataContext/aspnet_User/aspnet_User_UserHistory" />
+      <nodes>
+        <classShapeMoniker Id="8961b4a5-cfb1-4512-8e08-d5e673662e3e" />
+        <classShapeMoniker Id="cfaa5399-1917-492c-b53b-80f6346bed51" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8cb4de44-dd3e-46a1-9821-de761d130bd8" absoluteBounds="0.75, 1, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/SnapdragonDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ed6acdb-d0d2-4cd6-b93a-bb338d6a8e3e" absoluteBounds="0.76500000000000012, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c981f91a-5c2e-43f8-98d0-60630ff848fc" absoluteBounds="0.5, 3.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SnapdragonDataContext/CategoryLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="365a5a2c-5b61-4f77-b0bc-e7619fa29c12" absoluteBounds="0.51500000000000012, 3.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.46875 : 2.19399251302083); (1.46875 : 3.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SnapdragonDataContext/Category/Category_CategoryLog" />
+      <nodes>
+        <classShapeMoniker Id="8cb4de44-dd3e-46a1-9821-de761d130bd8" />
+        <classShapeMoniker Id="c981f91a-5c2e-43f8-98d0-60630ff848fc" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8fd6e3c7-01a6-4a37-9e77-d445be5b592f" absoluteBounds="3.375, 1.875, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/SnapdragonDataContext/Log" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d86c3931-dfcf-4ba0-bd84-aa12e692e349" absoluteBounds="3.39, 2.335, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.375 : 4.19314697265625); (2.5 : 4.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SnapdragonDataContext/Log/Log_CategoryLog" />
+      <nodes>
+        <classShapeMoniker Id="8fd6e3c7-01a6-4a37-9e77-d445be5b592f" />
+        <classShapeMoniker Id="c981f91a-5c2e-43f8-98d0-60630ff848fc" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

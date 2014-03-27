@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Snapdragon" Class="SnapdragonDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=AVILAYLAPTOP\SQLEXPRESS;Initial Catalog=Snapdragon;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SnapdragonConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Feed" Member="Feeds">
+    <Type Name="Feed">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ContentUrl" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(1024) NOT NULL" CanBeNull="false" />
+      <Column Name="LastChecked" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LastPublished" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="VarChar(1024) NOT NULL" CanBeNull="false" />
+      <Column Name="Url" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Association Name="Feed_UserFeed" Member="UserFeeds" ThisKey="Id" OtherKey="FeedId" Type="UserFeed" />
+      <Association Name="Feed_Item" Member="Items" ThisKey="Id" OtherKey="FeedId" Type="Item" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserFeed" Member="UserFeeds">
+    <Type Name="UserFeed">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="FeedId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Feed_UserFeed" Member="Feed" ThisKey="FeedId" OtherKey="Id" Type="Feed" IsForeignKey="true" />
+      <Association Name="aspnet_User_UserFeed" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Users" Member="aspnet_Users">
+    <Type Name="aspnet_User">
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LoweredUserName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="MobileAlias" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="IsAnonymous" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="LastActivityDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="aspnet_User_UserFeed" Member="UserFeeds" ThisKey="UserId" OtherKey="UserId" Type="UserFeed" />
+      <Association Name="aspnet_User_Prior" Member="Priors" ThisKey="UserId" OtherKey="UserId" Type="Prior" />
+      <Association Name="aspnet_User_UserVocabulary" Member="UserVocabularies" ThisKey="UserId" OtherKey="UserId" Type="UserVocabulary" />
+      <Association Name="aspnet_User_UserItem" Member="UserItems" ThisKey="UserId" OtherKey="UserId" Type="UserItem" />
+      <Association Name="aspnet_User_UserHistory" Member="UserHistories" ThisKey="UserId" OtherKey="UserId" Type="UserHistory" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Item" Member="Items">
+    <Type Name="Item">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FeedId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Author" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Excerpt" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Link" Type="System.String" DbType="VarChar(1024) NOT NULL" CanBeNull="false" />
+      <Column Name="PubDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(1024) NOT NULL" CanBeNull="false" />
+      <Column Name="InsertedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Item_UserItem" Member="UserItems" ThisKey="Id" OtherKey="ItemId" Type="UserItem" />
+      <Association Name="Feed_Item" Member="Feed" ThisKey="FeedId" OtherKey="Id" Type="Feed" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Classification" Member="Classifications">
+    <Type Name="Classification">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Label" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Classification_Prior" Member="Priors" ThisKey="Id" OtherKey="ClassificationId" Type="Prior" />
+      <Association Name="Classification_Probability" Member="Probabilities" ThisKey="Id" OtherKey="ClassificationId" Type="Probability" />
+      <Association Name="Classification_UserItem" Member="UserItems" ThisKey="Id" OtherKey="PredictedClassificationId" Type="UserItem" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Prior" Member="Priors">
+    <Type Name="Prior">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClassificationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Probability" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="Classification_Prior" Member="Classification" ThisKey="ClassificationId" OtherKey="Id" Type="Classification" IsForeignKey="true" />
+      <Association Name="aspnet_User_Prior" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Probability" Member="Probabilities">
+    <Type Name="Probability">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserVocabularyId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClassificationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Estimate" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="Classification_Probability" Member="Classification" ThisKey="ClassificationId" OtherKey="Id" Type="Classification" IsForeignKey="true" />
+      <Association Name="UserVocabulary_Probability" Member="UserVocabulary" ThisKey="UserVocabularyId" OtherKey="Id" Type="UserVocabulary" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Stopword" Member="Stopwords">
+    <Type Name="Stopword">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Word" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserVocabulary" Member="UserVocabularies">
+    <Type Name="UserVocabulary">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="VocabularyId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="UserVocabulary_Probability" Member="Probabilities" ThisKey="Id" OtherKey="UserVocabularyId" Type="Probability" />
+      <Association Name="aspnet_User_UserVocabulary" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+      <Association Name="Vocabulary_UserVocabulary" Member="Vocabulary" ThisKey="VocabularyId" OtherKey="Id" Type="Vocabulary" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vocabulary" Member="Vocabularies">
+    <Type Name="Vocabulary">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Word" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Vocabulary_UserVocabulary" Member="UserVocabularies" ThisKey="Id" OtherKey="VocabularyId" Type="UserVocabulary" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserItem" Member="UserItems">
+    <Type Name="UserItem">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ItemId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PredictedClassificationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsRead" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ReadTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PredictionScore" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="IsClicked" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Classification_UserItem" Member="Classification" ThisKey="PredictedClassificationId" OtherKey="Id" Type="Classification" IsForeignKey="true" />
+      <Association Name="Item_UserItem" Member="Item" ThisKey="ItemId" OtherKey="Id" Type="Item" IsForeignKey="true" />
+      <Association Name="aspnet_User_UserItem" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserHistory" Member="UserHistories">
+    <Type Name="UserHistory">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="HasModel" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="aspnet_User_UserHistory" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Category" Member="Categories">
+    <Type Name="Category">
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Association Name="Category_CategoryLog" Member="CategoryLogs" ThisKey="CategoryID" OtherKey="CategoryID" Type="CategoryLog" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CategoryLog" Member="CategoryLogs">
+    <Type Name="CategoryLog">
+      <Column Name="CategoryLogID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LogID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Category_CategoryLog" Member="Category" ThisKey="CategoryID" OtherKey="CategoryID" Type="Category" IsForeignKey="true" />
+      <Association Name="Log_CategoryLog" Member="Log" ThisKey="LogID" OtherKey="LogID" Type="Log" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Log]" Member="Logs">
+    <Type Name="Log">
+      <Column Name="LogID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EventID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Priority" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Severity" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Timestamp" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="MachineName" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="AppDomainName" Type="System.String" DbType="NVarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="ProcessID" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="ProcessName" Type="System.String" DbType="NVarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="ThreadName" Type="System.String" DbType="NVarChar(512)" CanBeNull="true" />
+      <Column Name="Win32ThreadId" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="FormattedMessage" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Log_CategoryLog" Member="CategoryLogs" ThisKey="LogID" OtherKey="LogID" Type="CategoryLog" />
+    </Type>
+  </Table>
+</Database>

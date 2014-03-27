@@ -1,0 +1,31 @@
+Data analysis for Snapdragon20091217.bak
+========================================
+error --> 109
+	was not crawled --> 83
+		BadlyFormed --> 50
+			http://bensbargains.net/rss.xml/0 --> 5
+			http://bensbargains.net/rss.xml/1 --> 5
+			http://feedproxy.google.com/TechCrunch --> 5
+			http://feeds.feedburner.com/SansInstituteWebcasts --> 35
+		NullReference --> 18
+			BuzzSugar --> 6
+			Twitter / spoilerfix --> 12
+		WebException --> 11
+				
+		Misc --> 4
+	Prior does not exist --> 24
+	ThreadAbortException --> 2
+
+
+warning --> 15092
+	Empty date value --> 6538
+	Missing item published date --> 7902
+	Setting last published date --> 612
+	RSS Item has invalid link --> 36
+	Bad Atom is missing author --> 4
+
+
+
+RID: f90ec67a-8be6-40ab-96c7-411e86104f35 Empty date value used in http://news.google.com/news?ned=us&hl=en&topic=h&output=rss
+RID: f90ec67a-8be6-40ab-96c7-411e86104f35 Missing item published date for : http://www.seattlepi.com/business/413130_costcocoke10.html?source=rss
+RID: 91b759c7-ddea-47f1-8f7c-94692679848c Missing item published date for : http://www.flightbliss.com/flightbliss/tips/mexico/business-class-airfares-to-mexico_127-1.html?stype=rss

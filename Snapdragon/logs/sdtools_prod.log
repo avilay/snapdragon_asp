@@ -1,0 +1,3087 @@
+-------------------------------------
+1/5/2010 12:00:18 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/5/2010 2:00:07 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/5/2010 4:00:10 AM: INFO: There are 114 errors.
+-------------------------------------
+
+-------------------------------------
+1/5/2010 1:50:04 PM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/5/2010 10:00:22 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+1/5/2010 10:00:42 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+1/5/2010 10:00:42 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+1/6/2010 12:00:12 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/6/2010 2:00:08 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/6/2010 4:00:15 AM: INFO: There are 124 errors.
+-------------------------------------
+
+-------------------------------------
+1/6/2010 9:04:18 AM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+1/6/2010 9:04:36 AM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+1/6/2010 9:04:36 AM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+1/7/2010 12:00:11 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/7/2010 2:00:14 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/7/2010 4:00:11 AM: INFO: There are 61 errors.
+-------------------------------------
+
+-------------------------------------
+1/8/2010 12:00:22 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/8/2010 2:00:16 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/8/2010 4:00:11 AM: INFO: There are 69 errors.
+-------------------------------------
+
+-------------------------------------
+1/9/2010 12:00:19 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/9/2010 2:00:19 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/9/2010 4:00:12 AM: INFO: There are 76 errors.
+-------------------------------------
+
+-------------------------------------
+1/10/2010 12:00:18 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/10/2010 2:00:06 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/10/2010 4:00:10 AM: INFO: There are 82 errors.
+-------------------------------------
+
+-------------------------------------
+1/11/2010 12:00:29 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/11/2010 2:00:19 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/11/2010 4:00:14 AM: INFO: There are 90 errors.
+-------------------------------------
+
+-------------------------------------
+1/12/2010 12:00:35 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/12/2010 2:00:18 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/12/2010 4:00:12 AM: INFO: There are 98 errors.
+-------------------------------------
+
+-------------------------------------
+1/12/2010 10:00:26 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+1/12/2010 10:00:49 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+1/12/2010 10:00:49 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+1/12/2010 10:00:59 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 8800 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 8806 pages in 7.375 seconds (9.780 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+1/12/2010 10:00:59 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 536
+UserVocabulary: 320
+Probability: 328
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 54424
+UserItem: 1536
+Category: 16
+Log: 8632
+CategoryLog: 240
+TOTAL USED: 68152
+RESERVED: 69464
+UNUSED: 1312
+
+-------------------------------------
+
+-------------------------------------
+1/12/2010 10:01:02 PM: INFO: Deleted 0 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+1/12/2010 10:01:06 PM: INFO: Deleted 5866 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+1/12/2010 10:01:06 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 536
+UserVocabulary: 320
+Probability: 328
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 54424
+UserItem: 1536
+Category: 16
+Log: 7232
+CategoryLog: 128
+TOTAL USED: 66640
+RESERVED: 68056
+UNUSED: 1416
+
+-------------------------------------
+
+-------------------------------------
+1/12/2010 10:01:12 PM: INFO: Total space used is 66640 KB
+-------------------------------------
+
+-------------------------------------
+1/13/2010 12:00:05 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/13/2010 2:00:17 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/13/2010 4:00:12 AM: INFO: There are 62 errors.
+-------------------------------------
+
+-------------------------------------
+1/14/2010 12:00:37 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/14/2010 2:00:07 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/14/2010 4:00:16 AM: INFO: There are 70 errors.
+-------------------------------------
+
+-------------------------------------
+1/15/2010 12:00:28 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/15/2010 2:00:10 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/15/2010 4:00:17 AM: INFO: There are 80 errors.
+-------------------------------------
+
+-------------------------------------
+1/16/2010 12:00:27 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/16/2010 2:00:16 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/16/2010 4:00:13 AM: INFO: There are 90 errors.
+-------------------------------------
+
+-------------------------------------
+1/17/2010 12:00:42 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/17/2010 2:00:20 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/17/2010 4:00:19 AM: INFO: There are 118 errors.
+-------------------------------------
+
+-------------------------------------
+1/18/2010 12:00:24 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/18/2010 2:00:08 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/18/2010 4:00:19 AM: INFO: There are 125 errors.
+-------------------------------------
+
+-------------------------------------
+1/19/2010 12:00:40 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/19/2010 2:00:10 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/26/2010 10:00:28 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+1/26/2010 10:00:53 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+1/26/2010 10:00:53 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+1/26/2010 10:01:07 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 10880 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 10886 pages in 12.588 seconds (7.083 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+1/26/2010 10:01:08 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 536
+UserVocabulary: 304
+Probability: 312
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 69904
+UserItem: 1968
+Category: 16
+Log: 8464
+CategoryLog: 224
+TOTAL USED: 83856
+RESERVED: 85240
+UNUSED: 1384
+
+-------------------------------------
+
+-------------------------------------
+1/26/2010 10:01:16 PM: INFO: Deleted 16815 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+1/26/2010 10:01:20 PM: INFO: Deleted 9268 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+1/26/2010 10:01:20 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 536
+UserVocabulary: 304
+Probability: 312
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 52064
+UserItem: 1448
+Category: 16
+Log: 5936
+CategoryLog: 128
+TOTAL USED: 62872
+RESERVED: 64656
+UNUSED: 1784
+
+-------------------------------------
+
+-------------------------------------
+1/26/2010 10:01:28 PM: INFO: Total space used is 62872 KB
+-------------------------------------
+
+-------------------------------------
+1/27/2010 12:00:15 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/27/2010 2:00:57 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/27/2010 4:00:10 AM: INFO: There are 6 errors.
+-------------------------------------
+
+-------------------------------------
+1/28/2010 12:00:12 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/28/2010 2:00:18 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/28/2010 4:00:10 AM: INFO: There are 13 errors.
+-------------------------------------
+
+-------------------------------------
+1/29/2010 12:00:22 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/29/2010 2:00:08 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/29/2010 4:00:13 AM: INFO: There are 20 errors.
+-------------------------------------
+
+-------------------------------------
+1/30/2010 12:00:29 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/30/2010 2:00:08 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/30/2010 4:00:14 AM: INFO: There are 28 errors.
+-------------------------------------
+
+-------------------------------------
+1/31/2010 2:00:06 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+1/31/2010 4:00:11 AM: INFO: There are 34 errors.
+-------------------------------------
+
+-------------------------------------
+2/1/2010 12:00:30 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/1/2010 2:00:19 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/1/2010 4:00:15 AM: INFO: There are 43 errors.
+-------------------------------------
+
+-------------------------------------
+2/2/2010 12:00:22 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/2/2010 2:00:06 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/2/2010 4:00:11 AM: INFO: There are 50 errors.
+-------------------------------------
+
+-------------------------------------
+2/2/2010 10:00:38 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+2/2/2010 10:00:59 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+2/2/2010 10:00:59 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+2/2/2010 10:01:12 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 10120 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 10126 pages in 10.122 seconds (8.194 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+2/2/2010 10:01:13 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 536
+UserVocabulary: 312
+Probability: 328
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 67992
+UserItem: 1936
+Category: 16
+Log: 4552
+CategoryLog: 144
+TOTAL USED: 77936
+RESERVED: 79408
+UNUSED: 1472
+
+-------------------------------------
+
+-------------------------------------
+2/2/2010 10:01:19 PM: INFO: Deleted 11976 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+2/2/2010 10:01:19 PM: INFO: Deleted 4 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+2/2/2010 10:01:19 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 536
+UserVocabulary: 312
+Probability: 328
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 56088
+UserItem: 1552
+Category: 16
+Log: 4552
+CategoryLog: 144
+TOTAL USED: 65648
+RESERVED: 67440
+UNUSED: 1792
+
+-------------------------------------
+
+-------------------------------------
+2/2/2010 10:01:29 PM: INFO: Total space used is 65648 KB
+-------------------------------------
+
+-------------------------------------
+2/3/2010 12:00:04 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/3/2010 2:00:11 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/3/2010 4:00:15 AM: INFO: There are 56 errors.
+-------------------------------------
+
+-------------------------------------
+2/4/2010 12:00:27 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/4/2010 2:00:17 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/4/2010 4:00:15 AM: INFO: There are 62 errors.
+-------------------------------------
+
+-------------------------------------
+2/5/2010 12:00:26 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/5/2010 2:00:19 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/5/2010 4:00:11 AM: INFO: There are 69 errors.
+-------------------------------------
+
+-------------------------------------
+2/6/2010 12:00:20 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/6/2010 2:00:09 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/6/2010 4:00:12 AM: INFO: There are 74 errors.
+-------------------------------------
+
+-------------------------------------
+2/7/2010 12:00:24 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/7/2010 2:00:07 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/7/2010 4:00:09 AM: INFO: There are 79 errors.
+-------------------------------------
+
+-------------------------------------
+2/8/2010 12:00:11 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/8/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/8/2010 4:00:12 AM: INFO: There are 84 errors.
+-------------------------------------
+
+-------------------------------------
+2/9/2010 12:00:22 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/9/2010 2:00:17 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/9/2010 4:00:12 AM: INFO: There are 91 errors.
+-------------------------------------
+
+-------------------------------------
+2/9/2010 10:00:30 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+2/9/2010 10:01:00 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+2/9/2010 10:01:00 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+2/9/2010 10:01:14 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 10936 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 10942 pages in 12.026 seconds (7.453 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+2/9/2010 10:01:15 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 536
+UserVocabulary: 312
+Probability: 328
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 70320
+UserItem: 2000
+Category: 16
+Log: 8504
+CategoryLog: 224
+TOTAL USED: 84360
+RESERVED: 85824
+UNUSED: 1464
+
+-------------------------------------
+
+-------------------------------------
+2/9/2010 10:01:24 PM: INFO: Deleted 15417 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+2/9/2010 10:01:26 PM: INFO: Deleted 5028 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+2/9/2010 10:01:26 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 536
+UserVocabulary: 312
+Probability: 328
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 55504
+UserItem: 1776
+Category: 16
+Log: 7256
+CategoryLog: 200
+TOTAL USED: 68048
+RESERVED: 70192
+UNUSED: 2144
+
+-------------------------------------
+
+-------------------------------------
+2/9/2010 10:01:34 PM: INFO: Total space used is 68048 KB
+-------------------------------------
+
+-------------------------------------
+2/10/2010 12:00:05 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/10/2010 2:00:03 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/10/2010 4:00:11 AM: INFO: There are 44 errors.
+-------------------------------------
+
+-------------------------------------
+2/11/2010 12:00:19 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/11/2010 2:00:04 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/11/2010 4:00:12 AM: INFO: There are 52 errors.
+-------------------------------------
+
+-------------------------------------
+2/12/2010 12:00:19 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/12/2010 2:00:19 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/12/2010 4:00:16 AM: INFO: There are 59 errors.
+-------------------------------------
+
+-------------------------------------
+2/13/2010 12:00:12 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/13/2010 2:00:21 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/13/2010 4:00:15 AM: INFO: There are 66 errors.
+-------------------------------------
+
+-------------------------------------
+2/14/2010 12:00:23 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/14/2010 2:00:16 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/14/2010 4:00:12 AM: INFO: There are 74 errors.
+-------------------------------------
+
+-------------------------------------
+2/15/2010 12:00:24 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/15/2010 2:00:17 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/15/2010 4:00:11 AM: INFO: There are 83 errors.
+-------------------------------------
+
+-------------------------------------
+2/16/2010 12:00:21 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/16/2010 2:00:04 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/16/2010 4:00:19 AM: INFO: There are 115 errors.
+-------------------------------------
+
+-------------------------------------
+2/16/2010 10:00:26 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+2/16/2010 10:00:53 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+2/16/2010 10:00:53 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+2/16/2010 10:01:14 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 10816 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 10822 pages in 18.959 seconds (4.675 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+2/16/2010 10:01:14 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 360
+Probability: 408
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 69648
+UserItem: 1976
+Category: 16
+Log: 7944
+CategoryLog: 216
+TOTAL USED: 83248
+RESERVED: 84440
+UNUSED: 1192
+
+-------------------------------------
+
+-------------------------------------
+2/16/2010 10:01:19 PM: INFO: Deleted 15367 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+2/16/2010 10:01:22 PM: INFO: Deleted 4458 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+2/16/2010 10:01:22 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 360
+Probability: 408
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 55720
+UserItem: 1744
+Category: 16
+Log: 6872
+CategoryLog: 208
+TOTAL USED: 68008
+RESERVED: 69848
+UNUSED: 1840
+
+-------------------------------------
+
+-------------------------------------
+2/16/2010 10:01:31 PM: INFO: Total space used is 68008 KB
+-------------------------------------
+
+-------------------------------------
+2/17/2010 12:00:07 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/17/2010 2:00:14 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/17/2010 4:00:14 AM: INFO: There are 80 errors.
+-------------------------------------
+
+-------------------------------------
+2/18/2010 12:00:32 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/18/2010 2:00:03 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/18/2010 4:00:10 AM: INFO: There are 90 errors.
+-------------------------------------
+
+-------------------------------------
+2/19/2010 12:00:13 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/19/2010 2:00:12 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/19/2010 4:00:14 AM: INFO: There are 100 errors.
+-------------------------------------
+
+-------------------------------------
+2/20/2010 12:00:28 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/20/2010 2:00:09 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/20/2010 4:00:14 AM: INFO: There are 110 errors.
+-------------------------------------
+
+-------------------------------------
+2/21/2010 12:00:27 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/21/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/21/2010 4:00:12 AM: INFO: There are 120 errors.
+-------------------------------------
+
+-------------------------------------
+2/22/2010 12:00:29 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/22/2010 2:00:29 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/22/2010 4:00:15 AM: INFO: There are 132 errors.
+-------------------------------------
+
+-------------------------------------
+2/23/2010 12:00:18 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/23/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/23/2010 4:00:09 AM: INFO: There are 143 errors.
+-------------------------------------
+
+-------------------------------------
+2/23/2010 10:00:26 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+2/23/2010 10:00:55 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+2/23/2010 10:00:55 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+2/23/2010 10:01:07 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 10888 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 10894 pages in 9.892 seconds (9.021 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+2/23/2010 10:01:08 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 368
+Probability: 424
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 70024
+UserItem: 1976
+Category: 16
+Log: 8168
+CategoryLog: 224
+TOTAL USED: 83880
+RESERVED: 85080
+UNUSED: 1200
+
+-------------------------------------
+
+-------------------------------------
+2/23/2010 10:01:11 PM: INFO: Deleted 5493 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+2/23/2010 10:01:12 PM: INFO: Deleted 4192 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+2/23/2010 10:01:12 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 368
+Probability: 424
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 65568
+UserItem: 1976
+Category: 16
+Log: 7152
+CategoryLog: 224
+TOTAL USED: 78408
+RESERVED: 80664
+UNUSED: 2256
+
+-------------------------------------
+
+-------------------------------------
+2/23/2010 10:01:21 PM: INFO: Total space used is 78408 KB
+-------------------------------------
+
+-------------------------------------
+2/24/2010 12:00:04 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/24/2010 2:00:06 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/24/2010 4:00:09 AM: INFO: There are 81 errors.
+-------------------------------------
+
+-------------------------------------
+2/25/2010 12:00:15 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/25/2010 2:00:06 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/25/2010 4:00:09 AM: INFO: There are 94 errors.
+-------------------------------------
+
+-------------------------------------
+2/26/2010 12:00:24 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/26/2010 2:00:06 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/26/2010 4:00:10 AM: INFO: There are 108 errors.
+-------------------------------------
+
+-------------------------------------
+2/27/2010 12:00:08 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/27/2010 2:00:16 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/27/2010 4:00:09 AM: INFO: There are 120 errors.
+-------------------------------------
+
+-------------------------------------
+2/28/2010 12:00:18 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/28/2010 2:00:15 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+2/28/2010 4:00:08 AM: INFO: There are 132 errors.
+-------------------------------------
+
+-------------------------------------
+3/1/2010 12:00:12 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/1/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/2/2010 12:00:05 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/2/2010 2:00:07 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/2/2010 4:00:11 AM: INFO: There are 157 errors.
+-------------------------------------
+
+-------------------------------------
+3/2/2010 10:00:32 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+3/2/2010 10:01:05 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+3/2/2010 10:01:05 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+3/2/2010 10:01:24 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 12312 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 12318 pages in 15.834 seconds (6.372 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+3/2/2010 10:01:24 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 368
+Probability: 424
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 80336
+UserItem: 2256
+Category: 16
+Log: 8496
+CategoryLog: 232
+TOTAL USED: 94816
+RESERVED: 96216
+UNUSED: 1400
+
+-------------------------------------
+
+-------------------------------------
+3/2/2010 10:01:29 PM: INFO: Deleted 12122 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+3/2/2010 10:01:30 PM: INFO: Deleted 4654 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+3/2/2010 10:01:30 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 368
+Probability: 424
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 70232
+UserItem: 2112
+Category: 16
+Log: 7448
+CategoryLog: 216
+TOTAL USED: 83504
+RESERVED: 86040
+UNUSED: 2536
+
+-------------------------------------
+
+-------------------------------------
+3/2/2010 10:01:39 PM: INFO: Total space used is 83504 KB
+-------------------------------------
+
+-------------------------------------
+3/3/2010 12:00:16 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/3/2010 2:01:10 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/3/2010 4:00:10 AM: INFO: There are 101 errors.
+-------------------------------------
+
+-------------------------------------
+3/4/2010 12:00:14 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/4/2010 2:00:07 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/4/2010 4:00:11 AM: INFO: There are 114 errors.
+-------------------------------------
+
+-------------------------------------
+3/5/2010 12:00:22 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/5/2010 2:00:09 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/5/2010 4:00:12 AM: INFO: There are 127 errors.
+-------------------------------------
+
+-------------------------------------
+3/6/2010 12:00:06 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/6/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/6/2010 4:00:10 AM: INFO: There are 139 errors.
+-------------------------------------
+
+-------------------------------------
+3/7/2010 12:00:20 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/7/2010 2:00:04 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/7/2010 4:00:09 AM: INFO: There are 150 errors.
+-------------------------------------
+
+-------------------------------------
+3/8/2010 12:00:08 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/8/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/8/2010 4:00:11 AM: INFO: There are 160 errors.
+-------------------------------------
+
+-------------------------------------
+3/8/2010 4:00:12 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/9/2010 12:00:10 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/9/2010 2:00:07 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/9/2010 4:00:11 AM: INFO: There are 160 errors.
+-------------------------------------
+
+-------------------------------------
+3/9/2010 4:00:12 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/9/2010 10:00:35 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+3/9/2010 10:01:03 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+3/9/2010 10:01:03 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+3/9/2010 10:01:23 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 12368 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 12374 pages in 17.461 seconds (5.805 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+3/9/2010 10:01:23 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 368
+Probability: 424
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 81648
+UserItem: 2272
+Category: 16
+Log: 7504
+CategoryLog: 208
+TOTAL USED: 95120
+RESERVED: 96600
+UNUSED: 1480
+
+-------------------------------------
+
+-------------------------------------
+3/9/2010 10:01:28 PM: INFO: Deleted 15902 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+3/9/2010 10:01:29 PM: INFO: Deleted 4586 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+3/9/2010 10:01:29 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 368
+Probability: 424
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 67456
+UserItem: 2032
+Category: 16
+Log: 6488
+CategoryLog: 192
+TOTAL USED: 79656
+RESERVED: 82512
+UNUSED: 2856
+
+-------------------------------------
+
+-------------------------------------
+3/9/2010 10:01:37 PM: INFO: Total space used is 79656 KB
+-------------------------------------
+
+-------------------------------------
+3/10/2010 12:00:17 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/10/2010 2:00:06 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/10/2010 4:00:12 AM: INFO: There are 84 errors.
+-------------------------------------
+
+-------------------------------------
+3/10/2010 4:00:13 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/11/2010 12:00:09 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/11/2010 2:00:06 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/11/2010 4:00:16 AM: INFO: There are 97 errors.
+-------------------------------------
+
+-------------------------------------
+3/11/2010 4:00:21 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/12/2010 12:00:09 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/12/2010 2:00:09 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/12/2010 4:00:12 AM: INFO: There are 109 errors.
+-------------------------------------
+
+-------------------------------------
+3/12/2010 4:00:13 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/13/2010 12:00:31 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/13/2010 2:00:22 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/13/2010 4:00:16 AM: INFO: There are 120 errors.
+-------------------------------------
+
+-------------------------------------
+3/13/2010 4:00:18 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/14/2010 12:00:28 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/14/2010 1:00:33 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/14/2010 4:00:15 AM: INFO: There are 132 errors.
+-------------------------------------
+
+-------------------------------------
+3/14/2010 4:00:17 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/15/2010 12:00:16 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/15/2010 2:00:18 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/15/2010 4:00:13 AM: INFO: There are 145 errors.
+-------------------------------------
+
+-------------------------------------
+3/15/2010 4:00:15 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/16/2010 12:00:16 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/16/2010 2:00:11 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/16/2010 4:00:14 AM: INFO: There are 158 errors.
+-------------------------------------
+
+-------------------------------------
+3/16/2010 4:00:16 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/16/2010 10:00:38 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+3/16/2010 10:01:11 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+3/16/2010 10:01:11 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+3/16/2010 10:01:32 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 12440 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 12446 pages in 17.715 seconds (5.755 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+3/16/2010 10:01:33 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 368
+Probability: 424
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 82216
+UserItem: 2280
+Category: 16
+Log: 7264
+CategoryLog: 200
+TOTAL USED: 95456
+RESERVED: 96600
+UNUSED: 1144
+
+-------------------------------------
+
+-------------------------------------
+3/16/2010 10:01:37 PM: INFO: Deleted 15770 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+3/16/2010 10:01:38 PM: INFO: Deleted 3496 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+3/16/2010 10:01:39 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 368
+Probability: 424
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 68280
+UserItem: 1840
+Category: 16
+Log: 6552
+CategoryLog: 200
+TOTAL USED: 80360
+RESERVED: 82968
+UNUSED: 2608
+
+-------------------------------------
+
+-------------------------------------
+3/16/2010 10:01:50 PM: INFO: Total space used is 80360 KB
+-------------------------------------
+
+-------------------------------------
+3/17/2010 12:00:26 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/17/2010 2:00:09 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/17/2010 4:00:18 AM: INFO: There are 98 errors.
+-------------------------------------
+
+-------------------------------------
+3/18/2010 12:00:08 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/18/2010 2:00:18 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/18/2010 4:00:11 AM: INFO: There are 112 errors.
+-------------------------------------
+
+-------------------------------------
+3/19/2010 12:00:13 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/19/2010 2:00:21 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/19/2010 4:00:18 AM: INFO: There are 123 errors.
+-------------------------------------
+
+-------------------------------------
+3/20/2010 12:00:29 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/20/2010 2:00:23 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/20/2010 4:00:15 AM: INFO: There are 134 errors.
+-------------------------------------
+
+-------------------------------------
+3/21/2010 12:00:09 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/21/2010 2:00:18 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/21/2010 4:00:11 AM: INFO: There are 144 errors.
+-------------------------------------
+
+-------------------------------------
+3/22/2010 12:00:16 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/22/2010 2:00:08 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/22/2010 4:00:11 AM: INFO: There are 155 errors.
+-------------------------------------
+
+-------------------------------------
+3/23/2010 12:00:34 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/23/2010 2:00:19 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/23/2010 4:00:11 AM: INFO: There are 162 errors.
+-------------------------------------
+
+-------------------------------------
+3/23/2010 10:00:43 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+3/23/2010 10:01:11 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+3/23/2010 10:01:11 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+3/23/2010 10:01:30 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 12416 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 12422 pages in 16.541 seconds (6.151 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+3/23/2010 10:01:31 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 376
+Probability: 408
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 81496
+UserItem: 2256
+Category: 16
+Log: 7928
+CategoryLog: 216
+TOTAL USED: 95376
+RESERVED: 96600
+UNUSED: 1224
+
+-------------------------------------
+
+-------------------------------------
+3/23/2010 10:01:36 PM: INFO: Deleted 14974 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+3/23/2010 10:01:37 PM: INFO: Deleted 4326 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+3/23/2010 10:01:37 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 376
+Probability: 408
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 67408
+UserItem: 1840
+Category: 16
+Log: 7072
+CategoryLog: 208
+TOTAL USED: 80008
+RESERVED: 82904
+UNUSED: 2896
+
+-------------------------------------
+
+-------------------------------------
+3/23/2010 10:01:50 PM: INFO: Total space used is 80008 KB
+-------------------------------------
+
+-------------------------------------
+3/24/2010 12:00:27 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/24/2010 2:00:25 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/24/2010 4:00:15 AM: INFO: There are 88 errors.
+-------------------------------------
+
+-------------------------------------
+3/25/2010 12:00:12 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/25/2010 2:00:30 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/25/2010 4:00:14 AM: INFO: There are 99 errors.
+-------------------------------------
+
+-------------------------------------
+3/26/2010 12:00:35 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/26/2010 2:00:24 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/26/2010 4:00:15 AM: INFO: There are 110 errors.
+-------------------------------------
+
+-------------------------------------
+3/27/2010 12:00:20 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/27/2010 2:00:09 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/27/2010 4:00:13 AM: INFO: There are 121 errors.
+-------------------------------------
+
+-------------------------------------
+3/28/2010 12:00:19 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/28/2010 2:00:18 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/28/2010 4:00:14 AM: INFO: There are 131 errors.
+-------------------------------------
+
+-------------------------------------
+3/29/2010 12:00:26 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/29/2010 2:00:32 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/29/2010 4:00:19 AM: INFO: There are 142 errors.
+-------------------------------------
+
+-------------------------------------
+3/30/2010 12:00:20 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/30/2010 2:00:08 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/30/2010 4:00:12 AM: INFO: There are 152 errors.
+-------------------------------------
+
+-------------------------------------
+3/30/2010 4:00:14 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+3/30/2010 10:00:43 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+3/30/2010 10:01:11 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+3/30/2010 10:01:11 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+3/30/2010 10:01:25 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 12368 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 12374 pages in 11.495 seconds (8.817 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+3/30/2010 10:01:26 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 384
+Probability: 416
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 80768
+UserItem: 2256
+Category: 16
+Log: 8248
+CategoryLog: 224
+TOTAL USED: 95000
+RESERVED: 96608
+UNUSED: 1608
+
+-------------------------------------
+
+-------------------------------------
+3/30/2010 10:01:31 PM: INFO: Deleted 15793 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+3/30/2010 10:01:31 PM: INFO: Deleted 4278 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+3/30/2010 10:01:32 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 384
+Probability: 416
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 66512
+UserItem: 2008
+Category: 16
+Log: 7392
+CategoryLog: 208
+TOTAL USED: 79624
+RESERVED: 82464
+UNUSED: 2840
+
+-------------------------------------
+
+-------------------------------------
+3/30/2010 10:01:40 PM: INFO: Total space used is 79624 KB
+-------------------------------------
+
+-------------------------------------
+3/31/2010 12:00:16 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+3/31/2010 2:00:11 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/1/2010 12:00:24 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/1/2010 2:00:18 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/1/2010 4:00:13 AM: INFO: There are 95 errors.
+-------------------------------------
+
+-------------------------------------
+4/1/2010 4:00:14 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+4/2/2010 12:00:22 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/2/2010 2:00:09 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/3/2010 12:00:30 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/3/2010 2:00:22 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/3/2010 4:00:13 AM: INFO: There are 116 errors.
+-------------------------------------
+
+-------------------------------------
+4/3/2010 4:00:14 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+4/4/2010 12:00:16 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/4/2010 2:00:04 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/4/2010 4:00:09 AM: INFO: There are 127 errors.
+-------------------------------------
+
+-------------------------------------
+4/4/2010 4:00:10 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+4/5/2010 12:00:21 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/5/2010 2:00:08 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/5/2010 4:00:10 AM: INFO: There are 138 errors.
+-------------------------------------
+
+-------------------------------------
+4/5/2010 4:00:12 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+4/6/2010 12:00:29 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/6/2010 2:00:22 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/6/2010 4:00:15 AM: INFO: There are 148 errors.
+-------------------------------------
+
+-------------------------------------
+4/6/2010 4:00:15 AM: INFO: There are 3 space errors.
+-------------------------------------
+
+-------------------------------------
+4/6/2010 10:00:37 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+4/6/2010 10:01:09 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+4/6/2010 10:01:09 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+4/6/2010 10:01:35 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 12408 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 12414 pages in 24.045 seconds (4.229 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+4/6/2010 10:01:36 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 384
+Probability: 416
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 80608
+UserItem: 2240
+Category: 16
+Log: 8648
+CategoryLog: 232
+TOTAL USED: 95224
+RESERVED: 96352
+UNUSED: 1128
+
+-------------------------------------
+
+-------------------------------------
+4/6/2010 10:01:41 PM: INFO: Deleted 15534 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+4/6/2010 10:01:42 PM: INFO: Deleted 4744 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+4/6/2010 10:01:42 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 384
+Probability: 416
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 66528
+UserItem: 1808
+Category: 16
+Log: 7720
+CategoryLog: 216
+TOTAL USED: 79768
+RESERVED: 82984
+UNUSED: 3216
+
+-------------------------------------
+
+-------------------------------------
+4/6/2010 10:01:54 PM: INFO: Total space used is 79768 KB
+-------------------------------------
+
+-------------------------------------
+4/7/2010 12:00:11 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/7/2010 2:00:10 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/7/2010 4:00:20 AM: INFO: There are 82 errors.
+-------------------------------------
+
+-------------------------------------
+4/8/2010 12:00:09 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/8/2010 2:00:21 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/8/2010 4:00:11 AM: INFO: There are 93 errors.
+-------------------------------------
+
+-------------------------------------
+4/9/2010 12:00:26 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/9/2010 2:00:13 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/9/2010 4:00:14 AM: INFO: There are 104 errors.
+-------------------------------------
+
+-------------------------------------
+4/10/2010 12:00:10 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/11/2010 12:00:30 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/11/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/11/2010 4:00:12 AM: INFO: There are 115 errors.
+-------------------------------------
+
+-------------------------------------
+4/12/2010 12:00:15 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/12/2010 4:00:09 AM: INFO: There are 116 errors.
+-------------------------------------
+
+-------------------------------------
+4/13/2010 12:00:29 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/13/2010 2:00:15 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/13/2010 10:00:31 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+4/13/2010 10:00:57 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+4/13/2010 10:00:57 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+4/13/2010 10:01:13 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 11976 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 11982 pages in 13.942 seconds (7.039 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+4/13/2010 10:01:14 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 384
+Probability: 416
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 78304
+UserItem: 2200
+Category: 16
+Log: 7504
+CategoryLog: 216
+TOTAL USED: 91720
+RESERVED: 93152
+UNUSED: 1432
+
+-------------------------------------
+
+-------------------------------------
+4/13/2010 10:01:18 PM: INFO: Deleted 12852 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+4/13/2010 10:01:19 PM: INFO: Deleted 4748 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+4/13/2010 10:01:19 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 384
+Probability: 416
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 67160
+UserItem: 2040
+Category: 16
+Log: 6616
+CategoryLog: 200
+TOTAL USED: 79512
+RESERVED: 83360
+UNUSED: 3848
+
+-------------------------------------
+
+-------------------------------------
+4/13/2010 10:01:26 PM: INFO: Total space used is 79512 KB
+-------------------------------------
+
+-------------------------------------
+4/14/2010 12:00:14 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/14/2010 2:00:20 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/14/2010 4:00:08 AM: INFO: There are 57 errors.
+-------------------------------------
+
+-------------------------------------
+4/23/2010 12:00:34 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/23/2010 2:00:19 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/23/2010 4:00:10 AM: INFO: There are 67 errors.
+-------------------------------------
+
+-------------------------------------
+4/24/2010 12:00:16 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/24/2010 2:00:04 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/25/2010 12:00:21 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/25/2010 2:00:15 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/25/2010 4:00:08 AM: INFO: There are 89 errors.
+-------------------------------------
+
+-------------------------------------
+4/26/2010 12:00:22 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/26/2010 2:00:17 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/26/2010 4:00:10 AM: INFO: There are 100 errors.
+-------------------------------------
+
+-------------------------------------
+4/27/2010 12:00:13 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/27/2010 2:00:12 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/27/2010 4:00:09 AM: INFO: There are 112 errors.
+-------------------------------------
+
+-------------------------------------
+4/27/2010 10:00:35 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+4/27/2010 10:01:10 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+4/27/2010 10:01:10 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+4/27/2010 10:01:25 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 12088 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 12094 pages in 12.572 seconds (7.880 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+4/27/2010 10:01:26 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 344
+Probability: 376
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 80064
+UserItem: 2256
+Category: 16
+Log: 6544
+CategoryLog: 192
+TOTAL USED: 92472
+RESERVED: 93976
+UNUSED: 1504
+
+-------------------------------------
+
+-------------------------------------
+4/27/2010 10:01:34 PM: INFO: Deleted 31213 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+4/27/2010 10:01:35 PM: INFO: Deleted 3758 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+4/27/2010 10:01:36 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 344
+Probability: 376
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 50864
+UserItem: 1384
+Category: 16
+Log: 5960
+CategoryLog: 192
+TOTAL USED: 61808
+RESERVED: 65304
+UNUSED: 3496
+
+-------------------------------------
+
+-------------------------------------
+4/27/2010 10:01:44 PM: INFO: Total space used is 61808 KB
+-------------------------------------
+
+-------------------------------------
+4/28/2010 12:00:21 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/28/2010 2:00:19 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/28/2010 4:00:14 AM: INFO: There are 64 errors.
+-------------------------------------
+
+-------------------------------------
+4/29/2010 12:00:11 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/29/2010 2:00:17 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/29/2010 4:00:11 AM: INFO: There are 78 errors.
+-------------------------------------
+
+-------------------------------------
+4/30/2010 12:00:25 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/30/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+4/30/2010 4:00:10 AM: INFO: There are 89 errors.
+-------------------------------------
+
+-------------------------------------
+5/4/2010 12:00:06 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/4/2010 2:00:06 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/4/2010 4:00:11 AM: INFO: There are 99 errors.
+-------------------------------------
+
+-------------------------------------
+5/4/2010 10:00:36 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+5/5/2010 12:00:06 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/5/2010 2:00:18 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/5/2010 4:00:12 AM: INFO: There are 109 errors.
+-------------------------------------
+
+-------------------------------------
+5/6/2010 12:00:23 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/6/2010 2:00:17 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/6/2010 4:00:11 AM: INFO: There are 120 errors.
+-------------------------------------
+
+-------------------------------------
+5/7/2010 12:00:12 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/7/2010 2:00:16 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/7/2010 4:00:10 AM: INFO: There are 130 errors.
+-------------------------------------
+
+-------------------------------------
+5/11/2010 12:00:18 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/11/2010 2:01:40 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/11/2010 4:00:17 AM: INFO: There are 139 errors.
+-------------------------------------
+
+-------------------------------------
+5/11/2010 10:00:12 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+5/11/2010 10:00:40 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+5/11/2010 10:00:40 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+5/11/2010 10:01:00 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 11216 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 11222 pages in 17.026 seconds (5.399 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+5/11/2010 10:01:01 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 352
+Probability: 376
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 72208
+UserItem: 2008
+Category: 16
+Log: 8184
+CategoryLog: 232
+TOTAL USED: 86064
+RESERVED: 87240
+UNUSED: 1176
+
+-------------------------------------
+
+-------------------------------------
+5/11/2010 10:01:07 PM: INFO: Deleted 27803 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+5/11/2010 10:01:09 PM: INFO: Deleted 6254 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+5/11/2010 10:01:09 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 352
+Probability: 376
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 47136
+UserItem: 1240
+Category: 16
+Log: 6552
+CategoryLog: 192
+TOTAL USED: 58552
+RESERVED: 63952
+UNUSED: 5400
+
+-------------------------------------
+
+-------------------------------------
+5/11/2010 10:01:14 PM: INFO: Total space used is 58552 KB
+-------------------------------------
+
+-------------------------------------
+5/12/2010 12:00:15 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/12/2010 2:00:15 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/12/2010 4:00:08 AM: INFO: There are 45 errors.
+-------------------------------------
+
+-------------------------------------
+5/13/2010 12:00:04 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/13/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/13/2010 4:00:28 AM: INFO: There are 55 errors.
+-------------------------------------
+
+-------------------------------------
+5/14/2010 12:00:17 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/14/2010 2:00:16 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/14/2010 4:00:12 AM: INFO: There are 65 errors.
+-------------------------------------
+
+-------------------------------------
+5/15/2010 12:00:17 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/15/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/15/2010 4:00:13 AM: INFO: There are 74 errors.
+-------------------------------------
+
+-------------------------------------
+5/16/2010 12:00:16 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/16/2010 2:00:16 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/16/2010 4:00:10 AM: INFO: There are 83 errors.
+-------------------------------------
+
+-------------------------------------
+5/17/2010 12:00:18 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/17/2010 2:00:15 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/17/2010 4:00:10 AM: INFO: There are 93 errors.
+-------------------------------------
+
+-------------------------------------
+5/18/2010 12:00:17 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/18/2010 2:00:15 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/18/2010 4:00:10 AM: INFO: There are 104 errors.
+-------------------------------------
+
+-------------------------------------
+5/18/2010 10:00:33 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+5/18/2010 10:00:56 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+5/18/2010 10:00:56 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+5/18/2010 10:01:20 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 9288 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 9294 pages in 19.772 seconds (3.850 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+5/18/2010 10:01:21 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 352
+Probability: 384
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 59872
+UserItem: 1672
+Category: 16
+Log: 6448
+CategoryLog: 200
+TOTAL USED: 71632
+RESERVED: 73096
+UNUSED: 1464
+
+-------------------------------------
+
+-------------------------------------
+5/18/2010 10:01:25 PM: INFO: Deleted 7651 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+5/18/2010 10:01:26 PM: INFO: Deleted 2790 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+5/18/2010 10:01:26 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 352
+Probability: 384
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 54312
+UserItem: 1656
+Category: 16
+Log: 5752
+CategoryLog: 200
+TOTAL USED: 65360
+RESERVED: 67912
+UNUSED: 2552
+
+-------------------------------------
+
+-------------------------------------
+5/18/2010 10:01:33 PM: INFO: Total space used is 65360 KB
+-------------------------------------
+
+-------------------------------------
+5/19/2010 12:00:16 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/19/2010 2:00:22 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/19/2010 4:00:18 AM: INFO: There are 76 errors.
+-------------------------------------
+
+-------------------------------------
+5/20/2010 12:00:24 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/20/2010 2:00:17 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/20/2010 4:00:11 AM: INFO: There are 86 errors.
+-------------------------------------
+
+-------------------------------------
+5/21/2010 12:00:31 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/21/2010 2:00:11 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/21/2010 4:00:20 AM: INFO: There are 96 errors.
+-------------------------------------
+
+-------------------------------------
+5/24/2010 12:01:15 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/24/2010 2:00:04 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/24/2010 4:00:11 AM: INFO: There are 106 errors.
+-------------------------------------
+
+-------------------------------------
+5/25/2010 12:00:27 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/25/2010 2:00:15 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/25/2010 4:00:10 AM: INFO: There are 117 errors.
+-------------------------------------
+
+-------------------------------------
+5/25/2010 10:00:19 PM: INFO: Deleted existing data in local db
+-------------------------------------
+
+-------------------------------------
+5/25/2010 10:00:49 PM: INFO: Copy from source db to local db complete
+-------------------------------------
+
+-------------------------------------
+5/25/2010 10:00:49 PM: INFO: Copy to local db complete
+-------------------------------------
+
+-------------------------------------
+5/25/2010 10:01:10 PM: INFO: Backup of local db complete. 10 percent processed.
+20 percent processed.
+30 percent processed.
+40 percent processed.
+50 percent processed.
+60 percent processed.
+70 percent processed.
+80 percent processed.
+90 percent processed.
+Processed 10080 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon' on file 1.
+100 percent processed.
+Processed 6 pages for database 'CopyOfSnapdragon', file 'CopyOfSnapdragon_log' on file 1.
+BACKUP DATABASE successfully processed 10086 pages in 18.197 seconds (4.540 MB/sec).
+
+-------------------------------------
+
+-------------------------------------
+5/25/2010 10:01:10 PM: INFO: BEFORE DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 344
+Probability: 376
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 65064
+UserItem: 1840
+Category: 16
+Log: 7032
+CategoryLog: 200
+TOTAL USED: 77560
+RESERVED: 78800
+UNUSED: 1240
+
+-------------------------------------
+
+-------------------------------------
+5/25/2010 10:01:14 PM: INFO: Deleted 7612 number of rows from Snapdragon
+-------------------------------------
+
+-------------------------------------
+5/25/2010 10:01:15 PM: INFO: Deleted 4342 number of rows from Logs
+-------------------------------------
+
+-------------------------------------
+5/25/2010 10:01:15 PM: INFO: AFTER DELETE: aspnet_Applications: 64
+aspnet_Users: 48
+aspnet_Membership: 48
+aspnet_SchemaVersions: 16
+UserHistory: 16
+Classification: 16
+Prior: 16
+Vocabulary: 544
+UserVocabulary: 344
+Probability: 376
+Stopword: 32
+Feed: 64
+UserFeed: 16
+Item: 59224
+UserItem: 1832
+Category: 16
+Log: 5984
+CategoryLog: 184
+TOTAL USED: 70648
+RESERVED: 73928
+UNUSED: 3280
+
+-------------------------------------
+
+-------------------------------------
+5/25/2010 10:01:23 PM: INFO: Total space used is 70648 KB
+-------------------------------------
+
+-------------------------------------
+5/26/2010 12:00:15 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/26/2010 2:00:15 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/26/2010 4:00:10 AM: INFO: There are 64 errors.
+-------------------------------------
+
+-------------------------------------
+5/27/2010 12:00:19 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/27/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/27/2010 4:00:14 AM: INFO: There are 75 errors.
+-------------------------------------
+
+-------------------------------------
+5/28/2010 12:00:20 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/28/2010 2:00:07 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/28/2010 4:00:13 AM: INFO: There are 85 errors.
+-------------------------------------
+
+-------------------------------------
+5/29/2010 12:00:19 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/29/2010 2:00:23 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/29/2010 4:00:12 AM: INFO: There are 94 errors.
+-------------------------------------
+
+-------------------------------------
+5/30/2010 12:00:19 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/30/2010 2:00:16 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/30/2010 4:00:13 AM: INFO: There are 104 errors.
+-------------------------------------
+
+-------------------------------------
+5/31/2010 12:00:26 AM: INFO: Started Learn with http://avilay.info/Daemon/LearnAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/31/2010 2:00:05 AM: INFO: Started crawl with http://avilay.info/Daemon/CrawlAll/avilayparekh
+-------------------------------------
+
+-------------------------------------
+5/31/2010 4:00:15 AM: INFO: There are 115 errors.
+-------------------------------------
+

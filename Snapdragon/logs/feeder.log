@@ -1,0 +1,2952 @@
+----------------------------------------
+1/4/2009 3:29:27 PM Verbose: DaemonController key: 123
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:27 PM Verbose: Entering AsyncCrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:27 PM Verbose: Leaving AsyncCrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:27 PM Verbose: Entering CrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:27 PM Error: NYT > Home Page was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 69
+
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:28 PM Error: Mini-Microsoft was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 69
+
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:28 PM Error: TechCrunch was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 69
+
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:28 PM Error: GigaOM was not crawled
+System.NullReferenceException was thrown.
+Object reference not set to an instance of an object.
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 69
+
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:41 PM Verbose: Entering Classify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:51 PM Verbose: Leaving Classify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:29:51 PM Verbose: Leaving CrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:31:48 PM Verbose: DaemonController key: 123
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:31:48 PM Verbose: Entering AsyncCrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:31:48 PM Verbose: Leaving AsyncCrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:31:48 PM Verbose: Entering CrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:31:49 PM Error: NYT > Home Page was not crawled
+System.Data.SqlClient.SqlException was thrown.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Item_Feed". The conflict occurred in database "Snapdragon", table "dbo.Feed", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.ItemRepository.Add(Item itemToAdd, Int32 feedId) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\ItemRepository.cs:line 31
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 70
+
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:31:50 PM Error: Mini-Microsoft was not crawled
+System.Data.SqlClient.SqlException was thrown.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Item_Feed". The conflict occurred in database "Snapdragon", table "dbo.Feed", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.ItemRepository.Add(Item itemToAdd, Int32 feedId) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\ItemRepository.cs:line 31
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 70
+
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:31:50 PM Error: TechCrunch was not crawled
+System.Data.SqlClient.SqlException was thrown.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Item_Feed". The conflict occurred in database "Snapdragon", table "dbo.Feed", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.ItemRepository.Add(Item itemToAdd, Int32 feedId) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\ItemRepository.cs:line 31
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 70
+
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:31:50 PM Error: GigaOM was not crawled
+System.Data.SqlClient.SqlException was thrown.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Item_Feed". The conflict occurred in database "Snapdragon", table "dbo.Feed", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.ItemRepository.Add(Item itemToAdd, Int32 feedId) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\ItemRepository.cs:line 31
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 70
+
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:31:50 PM Verbose: Entering Classify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:32:00 PM Verbose: Leaving Classify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:32:00 PM Verbose: Leaving CrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:33:15 PM Verbose: DaemonController key: 123
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:33:15 PM Verbose: Entering AsyncCrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:33:15 PM Verbose: Leaving AsyncCrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:33:15 PM Verbose: Entering CrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:33:19 PM Verbose: Entering Classify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:33:29 PM Verbose: Leaving Classify
+
+----------------------------------------
+----------------------------------------
+1/4/2009 3:33:29 PM Verbose: Leaving CrawlAndClassify
+
+----------------------------------------
+----------------------------------------
+1/9/2009 5:52:23 PM Warning: http://gigaom.com/ has a dead link: $3
+System.Net.WebException was thrown.
+The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Feeder.Services.FeedService.GetUrlState(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\FeedService.cs:line 80
+   at Feeder.Services.FeedService.ScanPage(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\FeedService.cs:line 131
+
+
+----------------------------------------
+----------------------------------------
+1/9/2009 5:53:29 PM Warning: Unable to add feed: http://feeds.feedburner.com/stoweboyd/wpeL: state is NOT_SUPPORTED_FEED
+
+----------------------------------------
+----------------------------------------
+1/9/2009 5:53:29 PM Warning: Unable to add feed: http://feeds.feedburner.com/mobiletracker/backpage: state is NOT_SUPPORTED_FEED
+
+----------------------------------------
+----------------------------------------
+1/9/2009 5:53:39 PM Warning: Setting last published date to min value in http://feeds.searchenginewatch.com/sew. Either all dates were un-parseable or no date elements were present.
+
+----------------------------------------
+----------------------------------------
+1/9/2009 5:53:49 PM Warning: Unable to add feed: http://rss.slashdot.org/Slashdot/slashdot: state is NOT_SUPPORTED_FEED
+
+----------------------------------------
+----------------------------------------
+4/17/2009 4:53:21 PM Warning: http://scobleizer.com/ has a dead link: $3
+System.Net.WebException was thrown.
+The remote server returned an error: (401) Unauthorized.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Feeder.Services.FeedService.GetUrlState(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\FeedService.cs:line 80
+   at Feeder.Services.FeedService.ScanPage(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\FeedService.cs:line 131
+
+
+----------------------------------------
+----------------------------------------
+4/17/2009 5:10:09 PM Information: Successfully validated key key1
+
+----------------------------------------
+----------------------------------------
+4/17/2009 5:10:12 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+4/17/2009 5:26:49 PM Information: Successfully validated key key1
+
+----------------------------------------
+----------------------------------------
+4/17/2009 5:26:50 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 5:43:00 PM Verbose: DaemonController key: somekey
+
+----------------------------------------
+----------------------------------------
+5/25/2009 5:44:53 PM Information: Successfully validated key somekey
+
+----------------------------------------
+----------------------------------------
+5/25/2009 5:44:57 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 6:36:48 PM Information: Successfully validated key somekey1
+
+----------------------------------------
+----------------------------------------
+5/25/2009 6:36:48 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 6:36:48 PM Verbose: CrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 6:36:48 PM Verbose: Crawl thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 6:36:53 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:51:27 PM Information: Successfully validated key key1
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:51:27 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:51:27 PM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:51:27 PM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:51:27 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:52:12 PM Information: Successfully validated key key1
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:52:12 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:55:51 PM Information: Successfully validated key key2
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:55:51 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:55:51 PM Verbose: CrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:55:51 PM Verbose: Crawl thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:55:51 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:56:09 PM Information: Successfully validated key key2
+
+----------------------------------------
+----------------------------------------
+5/25/2009 7:56:09 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:10:58 PM Information: Successfully validated key key3
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:10:58 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:11:28 PM Information: Successfully validated key key3
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:11:28 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:11:28 PM Verbose: CrawlAndClassify thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:11:28 PM Verbose: Crawl thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:11:28 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:19:23 PM Information: Successfully validated key key4
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:19:23 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:19:45 PM Information: Successfully validated key key4
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:19:45 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:19:45 PM Verbose: CrawlAndClassify thread id: 15, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:19:45 PM Verbose: Crawl thread id: 15, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:19:45 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:27:34 PM Information: Successfully validated key key5
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:27:34 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:04 PM Information: Successfully validated key key5
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:04 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:04 PM Verbose: CrawlAndClassify thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:04 PM Verbose: Crawl thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:04 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:36 PM Information: Successfully validated key key6
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:36 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:53 PM Information: Successfully validated key key6
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:53 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:53 PM Verbose: CrawlAndClassify thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:28:53 PM Verbose: Crawl thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:29:00 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:29:20 PM Information: Successfully validated key key7
+
+----------------------------------------
+----------------------------------------
+5/25/2009 8:29:20 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:23:22 PM Information: Successfully validated key key8
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:23:22 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:26:27 PM Information: Successfully validated key key8
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:26:27 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:26:27 PM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:26:27 PM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:26:27 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:27:17 PM Information: Successfully validated key key9
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:27:17 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:27:39 PM Information: Successfully validated key key9
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:27:39 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:27:39 PM Verbose: CrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:27:39 PM Verbose: Crawl thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:27:42 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:28:22 PM Information: Successfully validated key key10
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:28:22 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:30:52 PM Information: Successfully validated key key11
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:30:52 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:04 PM Information: Successfully validated key key11
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:04 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:04 PM Verbose: CrawlAndClassify thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:04 PM Verbose: Crawl thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:04 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:20 PM Information: Successfully validated key key12
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:20 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:40 PM Information: Successfully validated key key13
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:40 PM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:40 PM Verbose: CrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:40 PM Verbose: Crawl thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:45 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:54 PM Information: Successfully validated key key13
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:31:54 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/25/2009 9:33:05 PM Information: Successfully validated key key14
+
+----------------------------------------
+----------------------------------------
+5/26/2009 9:47:40 PM Information: Successfully validated key key20
+
+----------------------------------------
+----------------------------------------
+5/26/2009 9:55:47 PM Information: Successfully validated key key20
+
+----------------------------------------
+----------------------------------------
+5/26/2009 9:55:55 PM Error: Model for 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f was not learnt
+System.ArgumentException was thrown.
+Multiple histories exist for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+   at Feeder.Repositories.FeederNaiveBayesModel.MarkAsHasModel() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 48
+   at Feeder.Services.DaemonService.Learn(Object userIdObjects) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 160
+
+
+----------------------------------------
+----------------------------------------
+5/26/2009 9:55:55 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:08:34 PM Information: Successfully validated key key20
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:08:42 PM Error: EXCEPTION ERROR LOGModel for 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f was not learnt
+System.ArgumentException was thrown.
+Multiple histories exist for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+   at Feeder.Repositories.FeederNaiveBayesModel.MarkAsHasModel() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 48
+   at Feeder.Services.DaemonService.Learn(Object userIdObjects) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 160
+
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:08:42 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:09:53 PM Information: Successfully validated key key20
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:10:07 PM Error: Model for 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f was not learnt--System.ArgumentException was thrown.
+Multiple histories exist for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f--   at Feeder.Repositories.FeederNaiveBayesModel.MarkAsHasModel() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 48
+   at Feeder.Services.DaemonService.Learn(Object userIdObjects) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 160--
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:10:07 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:10:08 PM Information: Successfully validated key key20
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:10:15 PM Error: Model for 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f was not learnt--System.ArgumentException was thrown.
+Multiple histories exist for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f--   at Feeder.Repositories.FeederNaiveBayesModel.MarkAsHasModel() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 48
+   at Feeder.Services.DaemonService.Learn(Object userIdObjects) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 160--
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:10:15 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:10:47 PM Information: Successfully validated key key21
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:10:56 PM Error: Model for 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f was not learnt--System.ArgumentException was thrown.--Multiple histories exist for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f--   at Feeder.Repositories.FeederNaiveBayesModel.MarkAsHasModel() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 48
+   at Feeder.Services.DaemonService.Learn(Object userIdObjects) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 160--
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:10:56 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:51:29 PM Information: Successfully validated key key22
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:51:30 PM Error: Model for 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f was not learnt--System.InvalidOperationException was thrown.--Sequence contains no elements--   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source)
+   at Feeder.Repositories.FeederNaiveBayesModel.ClearModel() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 86
+   at Feeder.Services.DaemonService.Learn(Object userIdObjects) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 156--
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:51:30 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:54:53 PM Information: Successfully validated key key23
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:55:01 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:57:22 PM Information: Successfully validated key key24
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:57:22 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:57:57 PM Information: Successfully validated key key24
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:57:57 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:57:57 PM Verbose: CrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:57:57 PM Verbose: Crawl thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:57:57 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:59:17 PM Information: Successfully validated key key25
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:59:17 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:59:46 PM Information: Successfully validated key key26
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:59:46 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:59:46 PM Verbose: CrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:59:46 PM Verbose: Crawl thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 10:59:50 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:00:23 PM Information: Successfully validated key key27
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:00:23 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:00:42 PM Information: Successfully validated key key28
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:00:49 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:01:57 PM Information: Successfully validated key key29
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:01:57 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:01:57 PM Verbose: CrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:01:57 PM Verbose: Crawl thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:02:00 PM Error: Items for 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f was not classified
+System.ArgumentException was thrown.
+For user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f: Prior(unknown) = NULL
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 112
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 165
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 121
+
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:02:00 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:13:59 PM Information: Successfully validated key key30
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:13:59 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:13:59 PM Verbose: CrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:13:59 PM Verbose: Crawl thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:14:07 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:15:13 PM Information: Successfully validated key key31
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:15:13 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:15:32 PM Information: Successfully validated key key31
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:15:32 PM Verbose: AsyncCrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:15:32 PM Verbose: CrawlAndClassify thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:15:32 PM Verbose: Crawl thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:15:32 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:15:53 PM Information: Successfully validated key key32
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:15:53 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:16:11 PM Information: Successfully validated key key32
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:16:11 PM Verbose: AsyncCrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:16:11 PM Verbose: CrawlAndClassify thread id: 16, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:16:11 PM Verbose: Crawl thread id: 16, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:16:14 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:16:33 PM Information: Successfully validated key key33
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:16:33 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:16:49 PM Information: Successfully validated key key34
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:17:00 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:17:27 PM Information: Successfully validated key key35
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:17:27 PM Verbose: AsyncCrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:17:27 PM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:17:27 PM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+5/26/2009 11:17:34 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:14:52 PM Information: Successfully validated key key40
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:14:53 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:16:30 PM Information: Successfully validated key key40
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:16:30 PM Verbose: AsyncCrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:16:30 PM Verbose: CrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:16:31 PM Verbose: Crawl thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:16:31 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:17:03 PM Information: Successfully validated key key41
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:17:03 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:17:25 PM Information: Successfully validated key key41
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:17:25 PM Verbose: AsyncCrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:17:25 PM Verbose: CrawlAndClassify thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:17:25 PM Verbose: Crawl thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:17:35 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:17:57 PM Information: Successfully validated key key42
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:17:57 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:18:15 PM Information: Successfully validated key key43
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:18:16 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:18:30 PM Information: Successfully validated key key43
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:18:30 PM Verbose: AsyncCrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:18:30 PM Verbose: CrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:18:30 PM Verbose: Crawl thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:18:31 PM Error: Items for 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f was not classified
+System.ArgumentException was thrown.
+For user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f: Prior(uninteresting) = NULL
+   at Feeder.Repositories.FeederNaiveBayesModel.GetPrior(String classLabel) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeederNaiveBayesModel.cs:line 113
+   at Avilay.TextMining.Bayes.NaiveBayesClassifier.Load() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\MachineLearning\Avilay.TextMining\Bayes\NaiveBayesClassifier.cs:line 165
+   at Feeder.Services.DaemonService.Classify(Guid[] userIds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 123
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:18:31 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:23:59 PM Information: Successfully validated key key50
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:00 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:18 PM Information: Successfully validated key key50
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:18 PM Verbose: AsyncCrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:18 PM Verbose: CrawlAndClassify thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:18 PM Verbose: Crawl thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:18 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:39 PM Information: Successfully validated key key51
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:39 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:57 PM Information: Successfully validated key key52
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:57 PM Verbose: AsyncCrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:57 PM Verbose: CrawlAndClassify thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:24:57 PM Verbose: Crawl thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:25:01 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:25:17 PM Information: Successfully validated key key53
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:25:17 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:25:32 PM Information: Successfully validated key key54
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:25:40 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:25:57 PM Information: Successfully validated key key55
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:25:57 PM Verbose: AsyncCrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:25:57 PM Verbose: CrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:25:57 PM Verbose: Crawl thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 6:26:03 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 9:58:51 PM Information: Successfully validated key key57
+
+----------------------------------------
+----------------------------------------
+6/2/2009 9:58:51 PM Verbose: AsyncCrawlAndClassify thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 9:58:51 PM Verbose: CrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 9:58:51 PM Verbose: Crawl thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 9:58:55 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:04:16 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:04:16 PM Verbose: AsyncCrawlAndClassify thread id: 14, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:04:16 PM Verbose: CrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:04:16 PM Verbose: Crawl thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:04:19 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:04:19 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:04:27 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:38:01 PM Error: Feed/Index
+System.Exception was thrown.
+hahaha
+   at Feeder.Controllers.FeedController.Index() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Controllers\FeedController.cs:line 48
+   at lambda_method(ExecutionScope , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:38:34 PM Error: Reader/Index
+System.NotImplementedException was thrown.
+The method or operation is not implemented.
+   at Feeder.Controllers.ReaderController.Index() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Controllers\ReaderController.cs:line 25
+   at lambda_method(ExecutionScope , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:41:39 PM Error: Reader/Index
+System.NotImplementedException was thrown.
+The method or operation is not implemented.
+   at Feeder.Controllers.ReaderController.Index() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Controllers\ReaderController.cs:line 25
+   at lambda_method(ExecutionScope , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:57:15 PM Error: Reader/ReadFeedItems
+System.InvalidOperationException was thrown.
+The parameters dictionary does not contain a valid value of type 'System.Int32' for parameter 'id' which is required for method 'System.Web.Mvc.ActionResult ReadFeedItems(Int32)' in 'Feeder.Controllers.ReaderController'. To make a parameter optional its type should either be a reference type or a Nullable type.
+   at System.Web.Mvc.ControllerActionInvoker.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass5.<InvokeActionMethod>b__4(ParameterInfo parameterInfo)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:57:44 PM Error: Reader/ReadFeedItems
+System.InvalidOperationException was thrown.
+The parameters dictionary does not contain a valid value of type 'System.Int32' for parameter 'id' which is required for method 'System.Web.Mvc.ActionResult ReadFeedItems(Int32)' in 'Feeder.Controllers.ReaderController'. To make a parameter optional its type should either be a reference type or a Nullable type.
+   at System.Web.Mvc.ControllerActionInvoker.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass5.<InvokeActionMethod>b__4(ParameterInfo parameterInfo)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:58:00 PM Error: Reader/ReadFeedItems
+System.InvalidOperationException was thrown.
+The parameters dictionary does not contain a valid value of type 'System.Int32' for parameter 'id' which is required for method 'System.Web.Mvc.ActionResult ReadFeedItems(Int32)' in 'Feeder.Controllers.ReaderController'. To make a parameter optional its type should either be a reference type or a Nullable type.
+   at System.Web.Mvc.ControllerActionInvoker.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass5.<InvokeActionMethod>b__4(ParameterInfo parameterInfo)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:59:15 PM Error: Reader/ReadFeedItems
+System.InvalidOperationException was thrown.
+The parameters dictionary does not contain a valid value of type 'System.Int32' for parameter 'id' which is required for method 'System.Web.Mvc.ActionResult ReadFeedItems(Int32)' in 'Feeder.Controllers.ReaderController'. To make a parameter optional its type should either be a reference type or a Nullable type.
+   at System.Web.Mvc.ControllerActionInvoker.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass5.<InvokeActionMethod>b__4(ParameterInfo parameterInfo)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 10:59:22 PM Error: Reader/ReadFeedItems
+System.InvalidOperationException was thrown.
+The parameters dictionary does not contain a valid value of type 'System.Int32' for parameter 'id' which is required for method 'System.Web.Mvc.ActionResult ReadFeedItems(Int32)' in 'Feeder.Controllers.ReaderController'. To make a parameter optional its type should either be a reference type or a Nullable type.
+   at System.Web.Mvc.ControllerActionInvoker.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass5.<InvokeActionMethod>b__4(ParameterInfo parameterInfo)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 11:04:07 PM Error: Reader/ReadFeedItems
+System.InvalidOperationException was thrown.
+The parameters dictionary does not contain a valid value of type 'System.Int32' for parameter 'id' which is required for method 'System.Web.Mvc.ActionResult ReadFeedItems(Int32)' in 'Feeder.Controllers.ReaderController'. To make a parameter optional its type should either be a reference type or a Nullable type.
+   at System.Web.Mvc.ControllerActionInvoker.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass5.<InvokeActionMethod>b__4(ParameterInfo parameterInfo)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 11:06:03 PM Error: Reader/ReadFeedItems
+System.InvalidOperationException was thrown.
+The parameters dictionary does not contain a valid value of type 'System.Int32' for parameter 'id' which is required for method 'System.Web.Mvc.ActionResult ReadFeedItems(Int32)' in 'Feeder.Controllers.ReaderController'. To make a parameter optional its type should either be a reference type or a Nullable type.
+   at System.Web.Mvc.ControllerActionInvoker.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass5.<InvokeActionMethod>b__4(ParameterInfo parameterInfo)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/2/2009 11:06:54 PM Error: Reader/ReadFeedItems
+System.InvalidOperationException was thrown.
+The parameters dictionary does not contain a valid value of type 'System.Int32' for parameter 'id' which is required for method 'System.Web.Mvc.ActionResult ReadFeedItems(Int32)' in 'Feeder.Controllers.ReaderController'. To make a parameter optional its type should either be a reference type or a Nullable type.
+   at System.Web.Mvc.ControllerActionInvoker.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass5.<InvokeActionMethod>b__4(ParameterInfo parameterInfo)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/3/2009 10:52:43 PM Error: Reader/ReadFeedItems
+System.ArgumentOutOfRangeException was thrown.
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.set_Item(Int32 index, T value)
+   at Feeder.Controllers.ReaderController.ReadFeedItems(Int32 id) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Controllers\ReaderController.cs:line 33
+   at lambda_method(ExecutionScope , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:07:22 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:07:22 PM Verbose: Marking 7 items as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:09:00 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:09:00 PM Verbose: Marking 7 items as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:09:00 PM Verbose: Found 0 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:10:28 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:10:28 PM Verbose: Marking 7 items as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:10:28 PM Verbose: Found 0 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:11:03 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:11:03 PM Verbose: Marking 7 items as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:11:03 PM Verbose: Item ids: 2 4 6 8 10 12 14 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:11:03 PM Verbose: Found 0 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:14:32 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:14:32 PM Verbose: Marking 7 items as read for user 00000000-0000-0000-0000-000000000000
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:14:32 PM Verbose: Item ids: 2 4 6 8 10 12 14 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:14:32 PM Verbose: Found 0 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:15:33 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:15:33 PM Verbose: Marking 7 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:15:33 PM Verbose: Item ids: 2 4 6 8 10 12 14 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:15:33 PM Verbose: Found 7 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:19:34 PM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:19:34 PM Verbose: Marking 0 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:19:34 PM Verbose: Item ids: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:19:34 PM Verbose: Found 0 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:19:39 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:19:39 PM Verbose: Marking 7 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:19:39 PM Verbose: Item ids: 16 18 20 22 24 26 28 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:19:39 PM Verbose: Found 7 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:25:59 PM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:25:59 PM Verbose: Marking 0 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:25:59 PM Verbose: Item ids: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:25:59 PM Verbose: Found 0 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:07 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:07 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:07 PM Verbose: CrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:07 PM Verbose: Crawl thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:09 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:11 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:19 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:29 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:29 PM Verbose: Marking 7 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:29 PM Verbose: Item ids: 14 16 18 20 22 24 26 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:27:29 PM Verbose: Found 7 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:04 PM Verbose: Marking 6 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:04 PM Verbose: Marking 6 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:04 PM Verbose: Item ids: 2 4 6 8 10 12 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:04 PM Verbose: Found 6 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:30 PM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:30 PM Verbose: Marking 0 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:30 PM Verbose: Item ids: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:30 PM Verbose: Found 0 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:33 PM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:33 PM Verbose: Marking 0 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:33 PM Verbose: Item ids: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:33 PM Verbose: Found 0 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:42 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:42 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:42 PM Verbose: CrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:42 PM Verbose: Crawl thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:44 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:46 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:49 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:49 PM Verbose: Marking 7 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:49 PM Verbose: Item ids: 14 16 18 20 22 24 26 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:49 PM Verbose: Found 7 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:30:51 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:31 PM Verbose: Marking 6 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:31 PM Verbose: Marking 6 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:31 PM Verbose: Item ids: 2 4 6 8 10 12 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:31 PM Verbose: Found 6 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:55 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:55 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:55 PM Verbose: CrawlAndClassify thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:55 PM Verbose: Crawl thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:57 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:31:57 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:32:04 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:32:23 PM Verbose: Marking 6 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:32:23 PM Verbose: Marking 6 items as read for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:32:23 PM Verbose: Item ids: 2 4 6 8 10 12 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:32:23 PM Verbose: Found 6 items matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:35:58 PM Verbose: Marking 7 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:37:11 PM Verbose: Marking item 16 as clicked for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:37:11 PM Verbose: Found UserItem ID 16 matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:37:45 PM Verbose: Marking item 22 as clicked for user 29b90b21-946f-401b-ac9d-a6ea0dcbbc1f
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:37:45 PM Verbose: Found UserItem ID 22 matching criteria
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:38:54 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:38:54 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:38:54 PM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:38:54 PM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:38:56 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:38:58 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:39:02 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:54:01 PM Verbose: Marking 14 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:54:02 PM Error: Reader/ReadFeedItems
+System.Web.HttpUnhandledException was thrown.
+Exception of type 'System.Web.HttpUnhandledException' was thrown.
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.views_reader_readfeeditems_aspx.ProcessRequest(HttpContext context)
+   at System.Web.Mvc.ViewPage.RenderView(ViewContext viewContext)
+   at System.Web.Mvc.WebFormView.RenderViewPage(ViewContext context, ViewPage page)
+   at System.Web.Mvc.WebFormView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionResultWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionResultWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ActionResult actionResult, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+Object reference not set to an instance of an object.
+   at ASP.views_reader_readfeeditems_aspx.__RenderContent1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.views_shared_site_master.__Render__control1(HtmlTextWriter __w, Control parameterContainer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Control.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at System.Web.Mvc.ViewPage.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:55:37 PM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:56:56 PM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/3/2009 11:57:41 PM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:00:33 AM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:01:14 AM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:01:19 AM Verbose: Marking 6 as read
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:01:27 AM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:02:04 AM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:02:08 AM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:02:11 AM Verbose: Marking 0 as read
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:03:00 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:03:00 AM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:03:00 AM Verbose: CrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:03:00 AM Verbose: Crawl thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:03:02 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:03:02 AM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:03:14 AM Error: NYT > Home Page was not crawled
+System.Net.WebException was thrown.
+The remote name could not be resolved: 'www.nytimes.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 80
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:03:27 AM Error: TechCrunch was not crawled
+System.Net.WebException was thrown.
+The remote name could not be resolved: 'feedproxy.google.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 80
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:03:28 AM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:06:25 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:06:25 AM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:06:25 AM Verbose: CrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:06:25 AM Verbose: Crawl thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:06:28 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:06:28 AM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:06:36 AM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:08:15 AM Information: Successfully validated key key6
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:08:24 AM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:09:05 AM Information: Successfully validated key key6
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:09:05 AM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:09:05 AM Verbose: CrawlAndClassify thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:09:05 AM Verbose: Crawl thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 12:09:12 AM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:46 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:46 AM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:46 AM Verbose: CrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:47 AM Verbose: Crawl thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:49 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:49 AM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:50 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:50 AM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:50 AM Verbose: CrawlAndClassify thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:50 AM Verbose: Crawl thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:50 AM Error: NYT > Home Page was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:51 AM Error: Mini-Microsoft was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:52 AM Error: TechCrunch was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:52 AM Error: GigaOM was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:52 AM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:48:52 AM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:03 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:03 AM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:03 AM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:03 AM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:05 AM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:05 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:06 AM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:06 AM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:06 AM Verbose: CrawlAndClassify thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:06 AM Verbose: Crawl thread id: 12, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:07 AM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:50:14 AM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:51:24 AM Information: Successfully validated key key22
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:51:24 AM Verbose: AsyncCrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:51:24 AM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:51:24 AM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 10:51:30 AM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 3:34:51 PM Error: Reader/ReadFeedItems
+System.NotSupportedException was thrown.
+The member 'Feeder.Models.ItemUserDetails.FeedId' has no supported translation to SQL.
+   at System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitMember(SqlMember m)
+   at System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitExpression(SqlExpression exp)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitBinaryOperator(SqlBinary bo)
+   at System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitBinaryOperator(SqlBinary bo)
+   at System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitExpression(SqlExpression exp)
+   at System.Data.Linq.SqlClient.SqlVisitor.VisitSelectCore(SqlSelect select)
+   at System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitSelect(SqlSelect select)
+   at System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   at System.Data.Linq.SqlClient.SqlProvider.BuildQuery(ResultShape resultShape, Type resultType, SqlNode node, ReadOnlyCollection`1 parentParameters, SqlNodeAnnotations annotations)
+   at System.Data.Linq.SqlClient.SqlProvider.BuildQuery(Expression query, SqlNodeAnnotations annotations)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Feeder.Services.ReaderService.GetSessionItemsByFeed(Int32 feedId) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\ReaderService.cs:line 52
+   at Feeder.Controllers.ReaderController.ReadFeedItems(Int32 id) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Controllers\ReaderController.cs:line 32
+   at lambda_method(ExecutionScope , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:52:33 PM Error: Reader/ReadInterestingItems
+System.Web.HttpCompileException was thrown.
+c:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Views\Reader\ReadInterestingItems.aspx(11): error CS1061: 'Feeder.Models.ItemUserDetails' does not contain a definition for 'Id' and no extension method 'Id' accepting a first argument of type 'Feeder.Models.ItemUserDetails' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.WebFormView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionResultWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionResultWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ActionResult actionResult, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:54:39 PM Error: Reader/ReadInterestingItems
+System.Web.HttpCompileException was thrown.
+c:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Views\Reader\ReadInterestingItems.aspx(11): error CS0103: The name 'unreadItem' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.WebFormView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionResultWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionResultWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ActionResult actionResult, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:55:37 PM Error: Reader/ReadFeedItems
+System.Web.HttpCompileException was thrown.
+c:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Views\Reader\ReadFeedItems.aspx(43): error CS1061: 'Feeder.Models.ItemUserDetails' does not contain a definition for 'Id' and no extension method 'Id' accepting a first argument of type 'Feeder.Models.ItemUserDetails' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.WebFormView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionResultWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionResultWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ActionResult actionResult, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:36 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:36 PM Verbose: AsyncCrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:36 PM Verbose: CrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:36 PM Verbose: Crawl thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:38 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:39 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:40 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:40 PM Verbose: AsyncCrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:40 PM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:40 PM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:58 PM Error: NYT > Home Page was not crawled
+System.Net.WebException was thrown.
+The remote name could not be resolved: 'www.nytimes.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 80
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:58 PM Error: NYT > Home Page was not crawled
+System.Net.WebException was thrown.
+The remote name could not be resolved: 'www.nytimes.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at Avilay.Syndication.FeedReaderFactory.Create(Uri uri) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Syndication\Avilay.Syndication\FeedReaderFactory.cs:line 34
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 80
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 5:59:59 PM Error: Mini-Microsoft was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:00:00 PM Error: TechCrunch was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:00:00 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:00:01 PM Error: GigaOM was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:00:01 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:00:29 PM Information: Successfully validated key key22
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:00:29 PM Verbose: AsyncCrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:00:29 PM Verbose: CrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:00:29 PM Verbose: Crawl thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:00:38 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:37 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:37 PM Verbose: AsyncCrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:37 PM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:37 PM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:39 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:39 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:40 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:40 PM Verbose: AsyncCrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:40 PM Verbose: CrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:40 PM Verbose: Crawl thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:41 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:01:49 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:24 PM Information: Successfully validated key key66
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:24 PM Verbose: AsyncCrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:24 PM Verbose: CrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:24 PM Verbose: Crawl thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:29 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:46 PM Information: Successfully validated key key66
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:46 PM Verbose: AsyncCrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:46 PM Verbose: CrawlAndClassify thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:46 PM Verbose: Crawl thread id: 4, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:02:51 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:15 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:15 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:15 PM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:15 PM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:17 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:17 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:18 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:18 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:18 PM Verbose: CrawlAndClassify thread id: 15, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:18 PM Verbose: Crawl thread id: 15, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:25 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:26 PM Error: NYT > Home Page was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:27 PM Error: Mini-Microsoft was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:27 PM Error: TechCrunch was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:28 PM Error: GigaOM was not crawled
+System.Data.Linq.ChangeConflictException was thrown.
+Row not found or changed.
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Feeder.Repositories.FeedRepository.Update(Feed feedToUpdate) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Repositories\FeedRepository.cs:line 107
+   at Feeder.Services.DaemonService.Crawl(Feed[] feeds) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Services\DaemonService.cs:line 109
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:28 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:55 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:55 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:55 PM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:55 PM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:57 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:58 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:59 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:59 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:59 PM Verbose: CrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:07:59 PM Verbose: Crawl thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:08:00 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:08:09 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:08:15 PM Information: Successfully validated key key666
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:08:15 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:08:15 PM Verbose: CrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:08:15 PM Verbose: Crawl thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:08:20 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:19 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:19 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:19 PM Verbose: CrawlAndClassify thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:19 PM Verbose: Crawl thread id: 8, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:30 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:30 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:32 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:40 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:40 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:40 PM Verbose: CrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:40 PM Verbose: Crawl thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:15:40 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:11 PM Information: Successfully validated key key6666
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:11 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:11 PM Verbose: CrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:11 PM Verbose: Crawl thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:12 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:30 PM Information: Successfully validated key key66663
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:30 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:30 PM Verbose: CrawlAndClassify thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:30 PM Verbose: Crawl thread id: 13, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:16:31 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:20:43 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:20:43 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:20:43 PM Verbose: CrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:20:43 PM Verbose: Crawl thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:20:53 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:21:14 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:21:24 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:21:44 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:21:44 PM Verbose: AsyncCrawlAndClassify thread id: 10, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:21:44 PM Verbose: CrawlAndClassify thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:21:44 PM Verbose: Crawl thread id: 9, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 6:21:51 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 7:59:35 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 7:59:35 PM Verbose: AsyncCrawlAndClassify thread id: 15, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 7:59:35 PM Verbose: CrawlAndClassify thread id: 17, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 7:59:35 PM Verbose: Crawl thread id: 17, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 7:59:38 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:00:06 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:00:13 PM Information: Learn complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:00:36 PM Information: Successfully validated key lifecyclekey
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:00:36 PM Verbose: AsyncCrawlAndClassify thread id: 15, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:00:36 PM Verbose: CrawlAndClassify thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:00:36 PM Verbose: Crawl thread id: 11, thread name: 
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:00:44 PM Information: CrawlAndClassify complete
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:31:28 PM Error: Reader/ReadInterestingItems
+System.Web.HttpCompileException was thrown.
+c:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Views\Reader\ReadInterestingItems.aspx(17): error CS0103: The name 'subscribedFeeds' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.WebFormView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionResultWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionResultWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ActionResult actionResult, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:32:34 PM Error: Reader/ReadInterestingItems
+System.Web.HttpCompileException was thrown.
+c:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Views\Reader\ReadInterestingItems.aspx(17): error CS0103: The name 'subscribedFeeds' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.WebFormView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionResultWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionResultWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ActionResult actionResult, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/4/2009 8:35:30 PM Error: Reader/ReadInterestingItems
+System.Web.HttpCompileException was thrown.
+c:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Views\Reader\ReadInterestingItems.aspx(63): error CS0103: The name 'feed' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.Mvc.WebFormView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionResultWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionResultWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ActionResult actionResult, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/5/2009 8:49:24 AM Error: Reader/Index
+System.NotImplementedException was thrown.
+The method or operation is not implemented.
+   at Feeder.Controllers.ReaderController.Index() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Controllers\ReaderController.cs:line 27
+   at lambda_method(ExecutionScope , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/5/2009 8:49:33 AM Error: Reader/Index
+System.NotImplementedException was thrown.
+The method or operation is not implemented.
+   at Feeder.Controllers.ReaderController.Index() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Controllers\ReaderController.cs:line 27
+   at lambda_method(ExecutionScope , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/5/2009 9:01:31 PM Error: Account/Login
+System.Data.SqlClient.SqlException was thrown.
+Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Web.Security.SqlMembershipProvider.GetPasswordWithFormat(String username, Boolean updateLastLoginActivityDate, Int32& status, String& password, Int32& passwordFormat, String& passwordSalt, Int32& failedPasswordAttemptCount, Int32& failedPasswordAnswerAttemptCount, Boolean& isApproved, DateTime& lastLoginDate, DateTime& lastActivityDate)
+   at System.Web.Security.SqlMembershipProvider.CheckPassword(String username, String password, Boolean updateLastLoginActivityDate, Boolean failIfNotApproved, String& salt, Int32& passwordFormat)
+   at System.Web.Security.SqlMembershipProvider.CheckPassword(String username, String password, Boolean updateLastLoginActivityDate, Boolean failIfNotApproved)
+   at System.Web.Security.SqlMembershipProvider.ValidateUser(String username, String password)
+   at Feeder.Controllers.AccountController.Login(String username, String password, Boolean rememberMe, String returnUrl) in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Controllers\AccountController.cs:line 127
+   at lambda_method(ExecutionScope , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/6/2009 3:51:03 PM Error: Home/TestExceptionHandler
+System.Net.WebException was thrown.
+The remote name could not be resolved: 'avilayparekh.com'
+   at System.Net.HttpWebRequest.GetResponse()
+   at Feeder.Controllers.HomeController.TestExceptionHandler() in C:\Users\avilayp\Documents\Visual Studio 2008\Projects\Real\Snapdragon\Feeder\Controllers\HomeController.cs:line 34
+   at lambda_method(ExecutionScope , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(MethodInfo methodInfo, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<InvokeActionMethodWithFilters>b__9()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClassc.<>c__DisplayClasse.<InvokeActionMethodWithFilters>b__b()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(MethodInfo methodInfo, IDictionary`2 parameters, IList`1 filters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+----------------------------------------
+----------------------------------------
+6/6/2009 8:06:52 PM Verbose: sample log message
+
+----------------------------------------
+----------------------------------------
+6/6/2009 8:21:24 PM Verbose: sample log message
+
+----------------------------------------

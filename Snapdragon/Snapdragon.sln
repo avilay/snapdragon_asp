@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdTools", "SdTools\SdTools.csproj", "{BC63DB25-0B48-44FF-AA37-977FEDD19511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feeder", "Feeder\Feeder.csproj", "{9EB984EA-9AF4-400F-A03A-A6C3CA2F4C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFeeder", "TestFeeder\TestFeeder.csproj", "{EF9D1092-0549-4E27-A48D-AD5039B73D87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C84E966C-46AA-403A-8ADC-4A5E5B8FBCC4}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Snapdragon.vsmdi = Snapdragon.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Snapdragon.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC63DB25-0B48-44FF-AA37-977FEDD19511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC63DB25-0B48-44FF-AA37-977FEDD19511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC63DB25-0B48-44FF-AA37-977FEDD19511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC63DB25-0B48-44FF-AA37-977FEDD19511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB984EA-9AF4-400F-A03A-A6C3CA2F4C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB984EA-9AF4-400F-A03A-A6C3CA2F4C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB984EA-9AF4-400F-A03A-A6C3CA2F4C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB984EA-9AF4-400F-A03A-A6C3CA2F4C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9D1092-0549-4E27-A48D-AD5039B73D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9D1092-0549-4E27-A48D-AD5039B73D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9D1092-0549-4E27-A48D-AD5039B73D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9D1092-0549-4E27-A48D-AD5039B73D87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

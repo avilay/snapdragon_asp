@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ab22d0bb-dede-4ed0-b6b6-98b738d5a93a" name="avilayp@AVILAYPLAPTOP 2010-04-26 03:48:55" runUser="REDMOND\avilayp" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b6efd2e3-ed4b-48cf-9ff1-4523d3fefcb0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="avilayp_AVILAYPLAPTOP 2010-04-26 03_48_55" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-04-26T03:48:55.9114578-07:00" queuing="2010-04-26T03:48:55.9544603-07:00" start="2010-04-26T03:48:55.9884622-07:00" finish="2010-04-26T03:49:05.7340196-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\avilayp\projects\snapdragon\testfeeder\bin\debug\testfeeder.dll" id="f9b5067e-1fb7-804a-e3a2-3878983e26a5">
+      <Execution id="09a2780e-976a-4d05-b59e-d9e4babeec76" />
+      <TestMethod codeBase="C:/Users/avilayp/Projects/Snapdragon/TestFeeder/bin/Debug/TestFeeder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFeeder.CodedUITest1, TestFeeder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f9b5067e-1fb7-804a-e3a2-3878983e26a5" executionId="09a2780e-976a-4d05-b59e-d9e4babeec76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="09a2780e-976a-4d05-b59e-d9e4babeec76" testId="f9b5067e-1fb7-804a-e3a2-3878983e26a5" testName="CodedUITestMethod1" computerName="AVILAYPLAPTOP" duration="00:00:09.2489271" startTime="2010-04-26T03:48:55.9944626-07:00" endTime="2010-04-26T03:49:05.6310138-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09a2780e-976a-4d05-b59e-d9e4babeec76">
+      <Output>
+        <DebugTrace>E, 7376, 30, 2010/04/26, 03:48:56.812, 427522493460, QTAgent32.exe, LoadLibrary() : Unable to find the resource 37382 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+E, 7376, 30, 2010/04/26, 03:48:56.814, 427522497261, QTAgent32.exe, LoadLibrary() : Unable to find the resource 41728 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+E, 7376, 30, 2010/04/26, 03:48:56.815, 427522500096, QTAgent32.exe, LoadLibrary() : Unable to find the resource 803 from assembly C:\Windows\system32\en-US\user32.dll.mui: Error1814
+E, 7376, 30, 2010/04/26, 03:48:57.003, 427522903044, QTAgent32.exe, IEDOM : Could not get valid window handle of Internet Explorer_server
+W, 7376, 30, 2010/04/26, 03:48:57.003, 427522903284, QTAgent32.exe, IEDOM : Unable to get the document Window Handle
+W, 7376, 30, 2010/04/26, 03:49:00.851, 427531149337, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] MouseButtonClick - "[Web]ControlType='Hyperlink' &amp;&amp; TagName='A' &amp;&amp; Id='' &amp;&amp; Name='' &amp;&amp; Target='' &amp;&amp; InnerText='Read Feeds' &amp;&amp; FilterCondition(AbsolutePath='/Reader', Title='', Href='http://avilay.info/Reader', Class='', ControlDefinition='href="/Reader"', TagInstance='3')"
+\0&lt;/a&gt;
+E, 7376, 30, 2010/04/26, 03:49:04.957, 427539951208, QTAgent32.exe, IEDOM : Search : Unable to find element
+E, 7376, 30, 2010/04/26, 03:49:04.965, 427539968382, QTAgent32.exe, Exception: Microsoft.VisualStudio.TestTools.UITest.Extension.UITestException
+	Message: [Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='username' &amp;&amp; Name='username' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='id=username type=text name=username', TagInstance='1')
+	Stack Trace:    at Microsoft.VisualStudio.TestTools.UITest.Extension.IE.IETestPlugin.Search(Object parsedQueryIdCookie, IUITechnologyElement parentElement, Int32 maxDepth)
+	BaseExceptionMessage: [Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='username' &amp;&amp; Name='username' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='id=username type=text name=username', TagInstance='1')
+
+E, 7376, 30, 2010/04/26, 03:49:04.969, 427539975958, QTAgent32.exe, &lt;a class=failure&gt;Playback - {2} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='username' &amp;&amp; Name='username' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='id=username type=text name=username', TagInstance='1')) (The object specified was not found.)
+\0&lt;/a&gt;
+E, 7376, 30, 2010/04/26, 03:49:05.235, 427540546706, QTAgent32.exe, Playback - [IMAGE] C:\Users\avilayp\AppData\Local\Temp\UITestLogs\LastRun\RPFBA4.png
+\0
+W, 7376, 30, 2010/04/26, 03:49:05.235, 427540547046, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 7376, 30, 2010/04/26, 03:49:05.236, 427540548172, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2723 ms. Expected it to take maximum 500 ms.
+E, 7376, 30, 2010/04/26, 03:49:05.422, 427540944934, QTAgent32.exe, AL: Playback Error: Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotFoundException: The playback failed to find the control with the given search properties. Additional Details: 
+TechnologyName:  'Web'
+ControlType:  'Edit'
+TagName:  'INPUT'
+Id:  'username'
+Name:  'username'
+ Failed to find any control that matched the search condition Id='username' &amp;&amp; Name='username' &amp;&amp; ControlType='Edit' ---&gt; System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IScreenElement.FindAllDescendants(String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindAllScreenElement(String queryId, Int32 depth, Boolean singleQueryId, Boolean throwException)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindScreenElement(String queryId, Int32 depth)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindFirstDescendant(String queryId, Int32 maxDepth, Int32&amp; timeLeft)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapControlNotFoundException(COMException ex, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindFirstDescendant(String queryId, Int32 maxDepth, Int32&amp; timeLeft)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetUITestControlRecursive(Boolean useCache, Boolean alwaysSearch, ISearchArgument searchArg, IList`1 windowTitles, Int32&amp; timeLeft)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetElement(Boolean useCache, ISearchArgument searchArg)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.Search(ISearchArgument searchArg)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindInternal()
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindControlIfNecessary()
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty(String propertyName, Object value)
+W, 7376, 30, 2010/04/26, 03:49:05.598, 427541323270, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 7376, 30, 2010/04/26, 03:49:05.599, 427541323551, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method TestFeeder.CodedUITest1.CodedUITestMethod1 threw exception: 
+Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotFoundException: The playback failed to find the control with the given search properties. Additional Details: 
+TechnologyName:  'Web'
+ControlType:  'Edit'
+TagName:  'INPUT'
+Id:  'username'
+Name:  'username'
+ Failed to find any control that matched the search condition Id='username' &amp;&amp; Name='username' &amp;&amp; ControlType='Edit' ---&gt; System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.</Message>
+          <StackTrace>    at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IScreenElement.FindAllDescendants(String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindAllScreenElement(String queryId, Int32 depth, Boolean singleQueryId, Boolean throwException)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindScreenElement(String queryId, Int32 depth)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindFirstDescendant(String queryId, Int32 maxDepth, Int32&amp; timeLeft)
+ --- End of inner exception stack trace ---
+    at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapControlNotFoundException(COMException ex, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindFirstDescendant(String queryId, Int32 maxDepth, Int32&amp; timeLeft)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetUITestControlRecursive(Boolean useCache, Boolean alwaysSearch, ISearchArgument searchArg, IList`1 windowTitles, Int32&amp; timeLeft)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetElement(Boolean useCache, ISearchArgument searchArg)
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.Search(ISearchArgument searchArg)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindInternal()
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindControlIfNecessary()
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty(String propertyName, Object value)
+   at Microsoft.VisualStudio.TestTools.UITesting.HtmlControls.HtmlEdit.set_Text(String value)
+   at TestFeeder.UIMap.RecordedMethod1() in C:\Users\avilayp\Projects\Snapdragon\TestFeeder\UIMap.Designer.cs:line 51
+   at TestFeeder.CodedUITest1.CodedUITestMethod1() in C:\Users\avilayp\Projects\Snapdragon\TestFeeder\CodedUITest1.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="AVILAYPLAPTOP\CodedUITestMethod1.png" />
+      </ResultFiles>
+      <ExtensionResult>Exception has been thrown by the target of an invocation.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>
